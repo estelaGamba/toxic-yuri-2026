@@ -1,0 +1,24 @@
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+This is my first day at the SS Columbus. [br] I was assigned the post of Chief Medical Scientist at the ship, for assistance in an escort mission.
+I was rushed to this post by secondary vessel, after they told me the CMS of the Columbus had died in the middle of their duties.
+I knew her… we were colleagues in the Imperial Academy, and she had always been an ambitious researcher, ready to jump at any opportunity to work at cutting edge research on the field of foreign lifeform…
+the profession has truly lost one of its brightest stars.
+I can only hope to reach her level of brilliance one day.
+Anyhow, here I am filling her shoes.[br]I am only a specialist on sea life, and was contented with leading a small lab at a peripheral planet, not far from here.
+I’m here because I was the closest person with significant expertise to fill the role in a pinch.
+The Columbus would never hire me in regular circumstances… but I am ready to show that I am more than they give me credit for.
+I approach the bridge of the ship. The golden, imposing metal doors don’t let me mistake this place for any other than the center of command of the SS Columbus.
+\doctor: "Doctor Beverly Crusher, reporting to the bridge."
+The doors slide open, and I enter.
+I see lots of officers walking around the bridge, busy with their chores. The Captain and his Commander are standing side to side at the center of the command station
+looking very official, waiting for me to approach them. I feel a bit nervous as I walk the full distance to reach them, under their fixed gaze. They are already measuring me.
+[background fade="0.0"]
+join doctor right [mirrored="true"]
+# preciso do sprite do general e preciso saber se ele é importante na historia
+\doctor: “Reporting to service, sir.”
+captain: “Chief Medical Scientist, welcome aboard. This is Commander Riker, my second in command, and you will report to him. I trust that your voyage here was safe?”
+\doctor: “Yes sir, thank you. I came as soon as possible. I hope to be of use as Doctor Pulaski’s replacement, sir.”
+captain: “... Very well. Your duties begin immediately. Follow commander Riker to the Lab”
+join commander left
+commander: “This way, Doctor.”
+I follow the Commander dow the corridors leading to the lab. He seems to hold an expression of vague amusement.
