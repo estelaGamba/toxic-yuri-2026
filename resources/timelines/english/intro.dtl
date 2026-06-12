@@ -1,0 +1,61 @@
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+This is my first day at the SS Columbus. [br] I was assigned the post of Chief Medical Scientist at the ship, for assistance in an escort mission.
+I was rushed to this post by secondary vessel, after they told me the CMS of the Columbus had died in the middle of their duties.
+I knew her… we were colleagues in the Imperial Academy, and she had always been an ambitious researcher, ready to jump at any opportunity to work at cutting edge research on the field of foreign lifeform…
+the profession has truly lost one of its brightest stars.
+I can only hope to reach her level of brilliance one day.
+Anyhow, here I am filling her shoes.[br]I am only a specialist on sea life, and was contented with leading a small lab at a peripheral planet, not far from here.
+I’m here because I was the closest person with significant expertise to fill the role in a pinch.
+The Columbus would never hire me in regular circumstances… but I am ready to show that I am more than they give me credit for.
+I approach the bridge of the ship. The golden, imposing metal doors don’t let me mistake this place for any other than the center of command of the SS Columbus.
+\doctor: "Doctor Beverly Crusher, reporting to the bridge."
+The doors slide open, and I enter.
+I see lots of officers walking around the bridge, busy with their chores. The Captain and his Commander are standing side to side at the center of the command station
+looking very official, waiting for me to approach them. I feel a bit nervous as I walk the full distance to reach them, under their fixed gaze. They are already measuring me.
+[background fade="1.0"]
+join doctor right [mirrored="true"]
+# preciso do sprite do general e preciso saber se ele é importante na historia
+\doctor: “Reporting to service, sir.”
+captain: “Chief Medical Scientist, welcome aboard. This is Commander Riker, my second in command, and you will report to him. I trust that your voyage here was safe?”
+\doctor: “Yes sir, thank you. I came as soon as possible. I hope to be of use as Doctor Pulaski’s replacement, sir.”
+captain: “... Very well. Your duties begin immediately. Follow commander Riker to the Lab”
+join commander left
+commander: “This way, Doctor.”
+I follow the Commander dow the corridors leading to the lab. He seems to hold an expression of vague amusement.
+commander: “Well Doctor, I see you came prepared to make a name for yourself.”
+\doctor: “... I’m simply following orders, sir.”
+commander: “Yes… you are… but it’s not every day that a low ranking Medical Officer gets to do an important job at the Columbus. You must understand the importance of your role here.”
+\doctor: “Yes, sir.”
+commander: “This is an escort mission for the Empire… a special request from the upper echelons. You are here to make sure that our special cargo arrives intact at the destination.
+commander: You will update us on its vital signs hourly, and report if anything, anything, changes. You understand?”
+\doctor: “I understand, sir.”
+He slides a pass key on the lab door, and it opens. I enter after him.
+leave commander
+leave doctor
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+The medical laboratory of the SS Columbus is impressive.[br]Just one of its wings is much bigger than my small lab at Thetra 4.
+There are specimens of several plant and life forms that I’m unfamiliar with, all cooped up inside large glass containers, immersed in liquid.
+There are lab assistants and researchers all over the place, buzzing with nervous energy. I am in command of all these people.
+And my most important mission is a single specimen out of this collection.
+We approach the big glass tank. [br]There’s lots of feeding tubes coming out of it. I know that they carry secretion ous of the tank, and take nutrients in. They all connect to the body floating inside.
+I take a good look at it. It’s definitely from a humanoid, sapient species. Even though it’s unconscious righ now, I feel a very calming presence as I stand next to it.
+Its face looks almost serene, like it knows it’s being taken care of, and everything will be okay.
+I have no idea what part of the galaxy it comes from. I wonder how they found it…[br]What is this species level of intelligence.
+Can it communicate?[pause] Did it wear garments before, which would indicate some level of cultural development?[pause] Is it a rare species?
+That would explain the effort that’s been put in preserving this individual. But why would the Imperial Goverment be interested in it?
+Since the war started, they’ve had to cut back on research on foreign civilizations and focus on the war effort. We can’t afford the level of academic research that we once had… unless it helps the army…
+…Something about this makes me uneasy.
+[background fade="0.0"]
+join commander left
+join doctor right
+commander: “Doctor, I want to see you outside for a moment.”
+update doctor right [mirrored="true"]
+lab door opens and shuts
+label all timee doctor
+commander: “Here, these are your keys now. I don’t need to tell you to keep this under your guard at all times.
+commander: "[b]At[pause] all[pause] times,[pause] Doctor.[/b]”
+# talvez a alien pega a chave no final
+\doctor: “No, sir.”
+This guy makes me so nervous. Why does he have to be so extra?
+commander: “I have some last instructions I need to give you, so listen carefully.[pause] This cargo, the thing that is so fragile that you have to monitor constantly to make sure it’s alive for an entire month… it is dangerous.”
+\doctor: “Dangerous, sir…?”
