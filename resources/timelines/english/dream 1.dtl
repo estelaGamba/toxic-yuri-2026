@@ -28,10 +28,12 @@ label yes
 \doctor: “... I guess I was being too serious back there. I can’t deny that there is some beauty to this view. I’ve never seen a place like this."
 \doctor: "If anything, it makes me happy that I dreamt about it. I don’t want to forget it when I wake up.”
 stranger: “I don’t want to forget it, either.”
+[signal arg="cabou"]
 [end_timeline]
 label no
 \doctor: “I stand by what I said. Something so vague and abstract, I can’t make sense of it."
 \doctor: "If I could only know which part of the sky I was looking at, I could at least say something about it. In any case, I’ll probably forget about it when I wake up.”
 stranger: “I hope you end up here again, then. So I can show you everything I know, and maybe you will learn to appreciate its beauty.”
-“You really want me to give in, don’t you? Okay, If I come here again, I will let you try.”
+\doctor: “You really want me to give in, don’t you? Okay, If I come here again, I will let you try.”
+[signal arg="cabou"]
 [end_timeline]
