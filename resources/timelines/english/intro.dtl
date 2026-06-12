@@ -1,5 +1,6 @@
 [background arg="res://arts/splash art/place holder.png" fade="0.0"]
 This is my first day at the SS Columbus. [br] I was assigned the post of Chief Medical Scientist at the ship, for assistance in an escort mission.
+# #jump intro/all timee doctor
 I was rushed to this post by secondary vessel, after they told me the CMS of the Columbus had died in the middle of their duties.
 I knew her… we were colleagues in the Imperial Academy, and she had always been an ambitious researcher, ready to jump at any opportunity to work at cutting edge research on the field of foreign lifeform…
 the profession has truly lost one of its brightest stars.
@@ -45,13 +46,13 @@ Can it communicate?[pause] Did it wear garments before, which would indicate som
 That would explain the effort that’s been put in preserving this individual. But why would the Imperial Goverment be interested in it?
 Since the war started, they’ve had to cut back on research on foreign civilizations and focus on the war effort. We can’t afford the level of academic research that we once had… unless it helps the army…
 …Something about this makes me uneasy.
+label all timee doctor
 [background fade="0.0"]
 join commander left
 join doctor right
 commander: “Doctor, I want to see you outside for a moment.”
 update doctor right [mirrored="true"]
 lab door opens and shuts
-label all timee doctor
 commander: “Here, these are your keys now. I don’t need to tell you to keep this under your guard at all times.
 commander: "[b]At[pause] all[pause] times,[pause] Doctor.[/b]”
 # talvez a alien pega a chave no final
@@ -59,3 +60,32 @@ commander: "[b]At[pause] all[pause] times,[pause] Doctor.[/b]”
 This guy makes me so nervous. Why does he have to be so extra?
 commander: “I have some last instructions I need to give you, so listen carefully.[pause] This cargo, the thing that is so fragile that you have to monitor constantly to make sure it’s alive for an entire month… it is dangerous.”
 \doctor: “Dangerous, sir…?”
+commander: “Yes.[pause] Treat it like an extremely dangerous object and don’t take your eyes off it for a second. We don’t know how, or why, but we are sure that that thing is capable of something terrible. Dr. Pulaski thought that as well…”
+commander: "but she didn’t live to figure it out."
+\doctor: “...”
+commander: “If you need more encouragement, let me tell you this\:[pause] I will not hesitate to punish an insignificant Doctor Nobody if she fails to protect the safety of the lab, the safety of the ship, and the safety of the Empire."
+commander: "Do you understand?”
+# trocar os sprites para doutora com medo
+\doctor: “...Yes, sir.”
+commander: “Good. I know your record, Doctor. Your Allegiance to the Empire hasn’t always been so shiny, has it? Wesley Crusher, not always the model citizen?"
+commander: You look much nicer now, I admit. Easier than being a real man and join the army, I suppose…?
+\doctor: “...”
+commander: “Now, now, that’s all in the past. I’m sure you will do your job diligently. Welcome aboard, Doctor.”
+leave commander
+…[pause][br]I can’t breathe.
+leave doctor
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+I go back to the lab, and lock myself in the bathroom, and it’s a while before I can speak to anyone again.
+fade out
+fade in
+I’ve been looking at Dr. Pulaski’s documents on the specimen. It’s officially being called L3XA. Well, I guess that means that it’s not a very developed species then.
+If it could communicate with us in any formal way, we may be able to know its name. But again, it’s being transported as cargo, and not as a patient in the sickbay.
+L3XA’s vital signs had been fluctuating for a long time, but they’d been improving for the last few weeks. However, only a couple days ago, all the metabolic processes were increased dramatically, and the report shows lots of unusual activity.
+According to my assistants in the lab, Dr. Pulaski and the team spend restless nights trying to stabilize the individual, for the sudden increase in stress after a period of dormancy could have killed it.
+She must have had a lot to deal with in her last days, right until the end…
+I can imagine the stress she was under, with her superiors breathing down her neck, demanding she would save the precious Imperial cargo…
+“Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
+… Was that what he meant when he said that…? What exactly was Natasha Pulaski dealing with?...
+fade out
+After a long shift at the lab, and having made many visits to the bridge to report L3XA’s progress, I finally got a few hours to sleep.
+jump dream 1/

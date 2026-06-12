@@ -1,0 +1,37 @@
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+…
+In a dreamy state, I feel myself floating away in an infinitely expanding open space. I am surrounded by stars, galaxies, and everything is silent around me.
+I see colors that I’ve never seen before. My body is naked, and the air is warm.
+[background fade="0.0"]
+join doctor left
+stranger: “I like coming here too.”
+I didn't expect the voice that spoke to me. It caresses my ear, disembodied, making my skin crawl. I know now that there is somebody else with me here, only I can’t see them.
+join alien (neutra sonho) right
+stranger: “I like coming here when things down there become too difficult”
+\doctor: “...Who are you?”
+stranger: “I am a visitor of this place, same as you.”
+\doctor: “Of this dream, you mean?”
+stranger: “Ah, so you’re sleeping right now? I have to make some conscious effort to come here, you see? Some people just slip up here unawares.”
+\doctor: “Yes, I am sleeping. This is the first time that I have a dream like this.”
+stranger: “It’s lucky then, that I found you here. I can show you my favorite views. Look over there, that pink spot on your left. It happens to be a galaxy that has been dying for millions of years."
+stranger: "One day, its light will no longer reach us. But you and I will be long gone.”
+\doctor: “That’s sad. I didn’t even get the chance to learn about it before it was gone. Now, I know I never will.”
+stranger: “Do you have to understand something to appreciate its beauty?”
+\doctor: “Yes, actually. The beauty is in understanding the intricacies of a thing, its in and outs. A mere surface level first impression can’t be actually called beautiful.”
+stranger: “Is this place not beautiful?”
+- yes
+	jump dream 1/yes
+- no
+	jump dream 1/no
+	# posso add uma variavel de contador de fdp aqui
+label yes
+\doctor: “... I guess I was being too serious back there. I can’t deny that there is some beauty to this view. I’ve never seen a place like this."
+\doctor: "If anything, it makes me happy that I dreamt about it. I don’t want to forget it when I wake up.”
+stranger: “I don’t want to forget it, either.”
+[end_timeline]
+label no
+\doctor: “I stand by what I said. Something so vague and abstract, I can’t make sense of it."
+\doctor: "If I could only know which part of the sky I was looking at, I could at least say something about it. In any case, I’ll probably forget about it when I wake up.”
+stranger: “I hope you end up here again, then. So I can show you everything I know, and maybe you will learn to appreciate its beauty.”
+“You really want me to give in, don’t you? Okay, If I come here again, I will let you try.”
+[end_timeline]
