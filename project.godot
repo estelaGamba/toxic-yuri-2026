@@ -30,6 +30,7 @@ directories/dch_directory={
 "unit_test_character": "res://dialogic-2.0-alpha-19/Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
+"chapter 1": "res://resources/timelines/english/chapter 1.dtl",
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"
 }

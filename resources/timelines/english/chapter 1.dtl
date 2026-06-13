@@ -1,0 +1,60 @@
+# colocar som de despertador
+audio "res://arts/musics/electronic-alarm-clock.mp3" [volume="-5.5"]
+[background arg="res://arts/big text on screen/chapter 1.png" fade="0.0"]
+[wait_input]
+[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
+fade out
+fade in
+I am back a the medical lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
+Once again, I approach L3XA.
+It feels different this time. I stare at their serene face, and it somehow looks familiar. being here, right next to it, I feel in the air a familiar sensation that I can’t quite describe.
+The specimen also seems to be reacting to my approach. The closer I get, the more I see its facial muscles twitching. It relaxes when I walk away from it.
+The computer monitor shows some alteration in the metabolic processes. It’s nothing alarming, but it’s enough to go on my hourly report to the bridge.
+I continue my rounds, absent-mindedly, when something else unusual happens.
+stranger: “So it’s you then, that I saw the other night.”
+This voice. I recognize it.
+I look around, trying to find the person who spoke to me. Nobody is paying attention.
+stranger: “I didn’t expect we would meet here, of all places.”
+My eyes turn in the direction of L3XA’s tank. The creature is still static, its eyes are still closed.
+alien: “Yes, that's me. Ironic that I can’t see you now, and you couldn’t see me before.”
+- PRETEND NOT TO LISTEN
+	jump chapter 1/PRETEND NOT TO LISTEN
+- RESPOND
+label PRETEND NOT TO LISTEN
+[background fade="0.0"]
+join alien (neutra no tubo) left [mirrored="true"]
+join doctor right
+After a confused pause, I decide to continue walking as if nothing changed. I don’t know what’s happening right now, and I want to know more before I commit to a reaction.
+alien: “Are you listening to me right now? I know you are, you are the only person that can hear me.”
+I continue silent, trying not to show any disturbance on my face to any onlookers.
+alien: “You were more open to conversation when we first met. But I guess I spooked you. Take you time, and we can talk.”
+Is L3XA really referring to last night’s… dream? What was that all about?
+alien: “...I guess that you don’t know that you can talk to me like I do. If you form your thoughts in the shape of words and send them to me, I will pick up on them.”
+I decide to venture a response.
+update doctor [mirrored="true"]
+jump chapter 1/main
+label LISTEN
+[background fade="0.0"]
+join alien (neutra no tubo) left [mirrored="true"]
+join doctor right [mirrored="true"]
+\doctor: “Hey, excuse me?”
+Everyone at the lab stares at me. They look confused.
+alien: “They can’t hear me, silly. I think it will be best if you keep your cool.”
+I guess I should say something so no one thinks I'm crazy.
+\doctor: “Uhmmm, I… can somebody get me the results of the last blood test on specimen 000-96?”
+# fazer um personagem cientista
+unit_test_character: “Yes, Ma’am, right away.”
+alien: “That was clever. It should do for now. I have a feeling we would not be able to talk for too long if they knew that I am awake.”
+\doctor: “...”
+alien: “ There is a way you can talk to me as I’m talking to you now. Listen\: try to form the words that you want to say in your mind and send them to me. Can you do that?”
+So I can just communicate with L3XA via telepathy? I should try it. There’s so much going through my head right now.
+label main
+\doctor: “...can you hear me…?”
+alien: “Yes, I can hear you. It’s been so long since I heard someone talking to me like this.”
+\doctor: “This is very new to me… can we talk? I have some questions.”
+alien: “Go ahead. Ask me anything.”
+\doctor: “Okay so… how do you do this? The telepathy, I mean.”
+alien: “It’s how my species communicates. However, in this state, I can’t hold our connection for very long.
+alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.”
+[signal arg="cabou"]
