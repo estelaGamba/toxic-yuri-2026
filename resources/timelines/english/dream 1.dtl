@@ -1,5 +1,6 @@
-[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+[background arg="#000000ff" fade="0.0"]
 …
+[background arg="res://arts/splash art/splash arts/place holder 10.png" fade="0.0"]
 In a dreamy state, I feel myself floating away in an infinitely expanding open space. I am surrounded by stars, galaxies, and everything is silent around me.
 I see colors that I’ve never seen before. My body is naked, and the air is warm.
 [background fade="0.0"]

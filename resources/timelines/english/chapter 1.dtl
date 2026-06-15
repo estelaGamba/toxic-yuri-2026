@@ -1,12 +1,14 @@
 # colocar som de despertador
-audio "res://arts/musics/electronic-alarm-clock.mp3" [volume="-5.5"]
+# #audio "res://arts/musics/electronic-alarm-clock.mp3" [volume="-5.5"]
 [background arg="res://arts/big text on screen/chapter 1.png" fade="0.0"]
 [wait_input]
-[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 11.png" fade="0.0"]
 My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
 fade out
 fade in
+[background arg="res://arts/splash art/splash arts/place holder 12.png" fade="0.0"]
 I am back a the medical lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
+[background arg="res://arts/splash art/splash arts/place holder 13.png" fade="0.0"]
 Once again, I approach L3XA.
 It feels different this time. I stare at their serene face, and it somehow looks familiar. being here, right next to it, I feel in the air a familiar sensation that I can’t quite describe.
 The specimen also seems to be reacting to my approach. The closer I get, the more I see its facial muscles twitching. It relaxes when I walk away from it.
@@ -21,6 +23,7 @@ alien: “Yes, that's me. Ironic that I can’t see you now, and you couldn’t 
 - PRETEND NOT TO LISTEN
 	jump chapter 1/PRETEND NOT TO LISTEN
 - RESPOND
+	jump chapter 1/LISTEN
 label PRETEND NOT TO LISTEN
 [background fade="0.0"]
 join alien (neutra no tubo) left [mirrored="true"]
@@ -44,7 +47,7 @@ alien: “They can’t hear me, silly. I think it will be best if you keep your 
 I guess I should say something so no one thinks I'm crazy.
 \doctor: “Uhmmm, I… can somebody get me the results of the last blood test on specimen 000-96?”
 # fazer um personagem cientista
-unit_test_character: “Yes, Ma’am, right away.”
+scientist: “Yes, Ma’am, right away.”
 alien: “That was clever. It should do for now. I have a feeling we would not be able to talk for too long if they knew that I am awake.”
 \doctor: “...”
 alien: “ There is a way you can talk to me as I’m talking to you now. Listen\: try to form the words that you want to say in your mind and send them to me. Can you do that?”

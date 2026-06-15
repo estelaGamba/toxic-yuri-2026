@@ -26,6 +26,7 @@ directories/dch_directory={
 "captain": "res://arts/characters/capitain/captain.dch",
 "commander": "res://arts/characters/commander/commander.dch",
 "doctor": "res://arts/characters/doctor/doctor.dch",
+"scientist": "res://arts/characters/random NPCs/scientist.dch",
 "stranger": "res://arts/characters/random NPCs/stranger.dch",
 "unit_test_character": "res://dialogic-2.0-alpha-19/Tests/Resources/unit_test_character.dch"
 }
@@ -73,7 +74,7 @@ audio/channel_defaults={
 }
 }
 variables={
-"NewVar": "fdp"
+"fdp": 0
 }
 history/simple_history_enabled=true
 translation/enabled=true

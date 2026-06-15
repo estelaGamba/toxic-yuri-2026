@@ -10,22 +10,12 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "neutro",
+&"default_portrait": "",
 &"description": "",
-&"display_name": "Captain",
+&"display_name": "Scientist",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {
-"neutro": {
-"export_overrides": {
-"image": "\"res://arts/characters/capitain/captain neutro.png\""
-},
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1,
-"scene": ""
-}
-},
+&"portraits": {},
 &"scale": 1.0
 }

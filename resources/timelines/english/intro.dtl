@@ -1,6 +1,6 @@
-[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 1.png" fade="0.0"]
 This is my first day at the SS Columbus. [br] I was assigned the post of Chief Medical Scientist at the ship, for assistance in an escort mission.
-#jump dream 1/yes
+# #jump dream 1/yes
 I was rushed to this post by secondary vessel, after they told me the CMS of the Columbus had died in the middle of their duties.
 I knew her… we were colleagues in the Imperial Academy, and she had always been an ambitious researcher, ready to jump at any opportunity to work at cutting edge research on the field of foreign lifeform…
 the profession has truly lost one of its brightest stars.
@@ -8,18 +8,22 @@ I can only hope to reach her level of brilliance one day.
 Anyhow, here I am filling her shoes.[br]I am only a specialist on sea life, and was contented with leading a small lab at a peripheral planet, not far from here.
 I’m here because I was the closest person with significant expertise to fill the role in a pinch.
 The Columbus would never hire me in regular circumstances… but I am ready to show that I am more than they give me credit for.
+[background arg="res://arts/splash art/splash arts/place holder 2.png" fade="0.0"]
 I approach the bridge of the ship. The golden, imposing metal doors don’t let me mistake this place for any other than the center of command of the SS Columbus.
 \doctor: "Doctor Beverly Crusher, reporting to the bridge."
 The doors slide open, and I enter.
+[background arg="res://arts/splash art/splash arts/place holder 3.png" fade="0.0"]
 I see lots of officers walking around the bridge, busy with their chores. The Captain and his Commander are standing side to side at the center of the command station
 looking very official, waiting for me to approach them. I feel a bit nervous as I walk the full distance to reach them, under their fixed gaze. They are already measuring me.
 [background fade="1.0"]
 join doctor right [mirrored="true"]
+join captain left
 # preciso do sprite do general e preciso saber se ele é importante na historia
 \doctor: “Reporting to service, sir.”
 captain: “Chief Medical Scientist, welcome aboard. This is Commander Riker, my second in command, and you will report to him. I trust that your voyage here was safe?”
 \doctor: “Yes sir, thank you. I came as soon as possible. I hope to be of use as Doctor Pulaski’s replacement, sir.”
 captain: “... Very well. Your duties begin immediately. Follow commander Riker to the Lab”
+leave captain
 join commander left
 commander: “This way, Doctor.”
 I follow the Commander dow the corridors leading to the lab. He seems to hold an expression of vague amusement.
@@ -33,11 +37,12 @@ commander: You will update us on its vital signs hourly, and report if anything,
 He slides a pass key on the lab door, and it opens. I enter after him.
 leave commander
 leave doctor
-[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 4.png" fade="0.0"]
 The medical laboratory of the SS Columbus is impressive.[br]Just one of its wings is much bigger than my small lab at Thetra 4.
 There are specimens of several plant and life forms that I’m unfamiliar with, all cooped up inside large glass containers, immersed in liquid.
 There are lab assistants and researchers all over the place, buzzing with nervous energy. I am in command of all these people.
 And my most important mission is a single specimen out of this collection.
+[background arg="res://arts/splash art/splash arts/place holder 5.png" fade="0.0"]
 We approach the big glass tank. [br]There’s lots of feeding tubes coming out of it. I know that they carry secretion ous of the tank, and take nutrients in. They all connect to the body floating inside.
 I take a good look at it. It’s definitely from a humanoid, sapient species. Even though it’s unconscious righ now, I feel a very calming presence as I stand next to it.
 Its face looks almost serene, like it knows it’s being taken care of, and everything will be okay.
@@ -74,18 +79,21 @@ commander: “Now, now, that’s all in the past. I’m sure you will do your jo
 leave commander
 …[pause][br]I can’t breathe.
 leave doctor
-[background arg="res://arts/splash art/place holder.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 6.png" fade="0.0"]
 I go back to the lab, and lock myself in the bathroom, and it’s a while before I can speak to anyone again.
 fade out
 fade in
+[background arg="res://arts/splash art/splash arts/place holder 7.png" fade="0.0"]
 I’ve been looking at Dr. Pulaski’s documents on the specimen. It’s officially being called L3XA. Well, I guess that means that it’s not a very developed species then.
 If it could communicate with us in any formal way, we may be able to know its name. But again, it’s being transported as cargo, and not as a patient in the sickbay.
 L3XA’s vital signs had been fluctuating for a long time, but they’d been improving for the last few weeks. However, only a couple days ago, all the metabolic processes were increased dramatically, and the report shows lots of unusual activity.
 According to my assistants in the lab, Dr. Pulaski and the team spend restless nights trying to stabilize the individual, for the sudden increase in stress after a period of dormancy could have killed it.
 She must have had a lot to deal with in her last days, right until the end…
+[background arg="res://arts/splash art/splash arts/place holder 8.png" fade="0.0"]
 I can imagine the stress she was under, with her superiors breathing down her neck, demanding she would save the precious Imperial cargo…
 “Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
 … Was that what he meant when he said that…? What exactly was Natasha Pulaski dealing with?...
 fade out
+[background arg="res://arts/splash art/splash arts/place holder 9.png" fade="0.0"]
 After a long shift at the lab, and having made many visits to the bridge to report L3XA’s progress, I finally got a few hours to sleep.
 jump dream 1/
