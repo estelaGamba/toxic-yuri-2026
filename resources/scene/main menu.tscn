@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://o6ld7x4qeqok"]
+
+[ext_resource type="Script" uid="uid://duopsghddy3l6" path="res://resources/scripts/main_menu.gd" id="1_n1bfg"]
+[ext_resource type="Theme" uid="uid://cvd64ay2px41j" path="res://arts/menu/main menu botons.tres" id="2_aoh5q"]
+[ext_resource type="FontFile" uid="uid://ckegtts4wqo64" path="res://arts/fonts/RubikMonoOne-Regular.ttf" id="3_aoh5q"]
+
+[node name="Control" type="Control" unique_id=1369140168]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n1bfg")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=34813483]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=924404606]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+theme_override_constants/separation = 26
+
+[node name="continue" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1667070041]
+layout_mode = 2
+theme = ExtResource("2_aoh5q")
+text = "Continue"
+
+[node name="new_game" type="Button" parent="MarginContainer/VBoxContainer" unique_id=198524084]
+layout_mode = 2
+theme = ExtResource("2_aoh5q")
+text = "New Game"
+
+[node name="endings" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2066499064]
+layout_mode = 2
+theme = ExtResource("2_aoh5q")
+text = "Endings"
+
+[node name="settings" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1538152959]
+layout_mode = 2
+theme = ExtResource("2_aoh5q")
+text = "Settings"
+
+[node name="exit" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2127713988]
+layout_mode = 2
+theme = ExtResource("2_aoh5q")
+text = "Exit"
+
+[node name="Label" type="Label" parent="MarginContainer" unique_id=967622323]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("3_aoh5q")
+theme_override_font_sizes/font_size = 66
+text = "project l3xa"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=317965950]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
