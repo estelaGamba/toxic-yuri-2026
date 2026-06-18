@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://bojikjkbcueg6"]
+
+[ext_resource type="Texture2D" uid="uid://bj13dj21um173" path="res://arts/menu/box textos.png" id="1_1kay4"]
+
+[resource]
+texture = ExtResource("1_1kay4")
+expand_margin_left = 24.0
+expand_margin_top = 24.0
+expand_margin_right = 24.0
+expand_margin_bottom = 24.0
