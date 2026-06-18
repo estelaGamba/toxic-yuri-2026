@@ -6,10 +6,12 @@
 bg_color = Color(0.16862746, 0.29803923, 0.33333334, 0.5254902)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5tjkq"]
-bg_color = Color(0.32941177, 0.6431373, 0.7882353, 0.23921569)
+bg_color = Color(0.32941177, 0.6431373, 0.7882353, 0.16078432)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2verp"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_04wrk"]
-bg_color = Color(0.21176471, 0.6627451, 0.78039217, 0.4392157)
+bg_color = Color(0.15686275, 0.654902, 0.6, 0.2901961)
 
 [resource]
 Button/colors/font_color = Color(0.875, 0.875, 0.875, 1)
@@ -19,4 +21,5 @@ Button/font_sizes/font_size = 35
 Button/fonts/font = ExtResource("1_2verp")
 Button/styles/disabled = SubResource("StyleBoxFlat_2verp")
 Button/styles/hover = SubResource("StyleBoxFlat_5tjkq")
-Button/styles/normal = SubResource("StyleBoxFlat_04wrk")
+Button/styles/normal = SubResource("StyleBoxEmpty_2verp")
+Button/styles/pressed = SubResource("StyleBoxFlat_04wrk")

@@ -3,6 +3,8 @@
 [ext_resource type="Script" uid="uid://duopsghddy3l6" path="res://resources/scripts/main_menu.gd" id="1_n1bfg"]
 [ext_resource type="Theme" uid="uid://cvd64ay2px41j" path="res://arts/menu/main menu botons.tres" id="2_aoh5q"]
 [ext_resource type="FontFile" uid="uid://ckegtts4wqo64" path="res://arts/fonts/RubikMonoOne-Regular.ttf" id="3_aoh5q"]
+[ext_resource type="AudioStream" uid="uid://cyr38sb70tpf0" path="res://arts/musics/Something that can be used somewhere.wav" id="4_yjhrv"]
+[ext_resource type="PackedScene" uid="uid://bonnt7io21dd7" path="res://resources/scene/settings.tscn" id="5_gnmhi"]
 
 [node name="Control" type="Control" unique_id=1369140168]
 layout_mode = 3
@@ -23,33 +25,34 @@ grow_vertical = 2
 theme_override_constants/margin_left = 25
 theme_override_constants/margin_top = 25
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=924404606]
+[node name="main bottons" type="VBoxContainer" parent="MarginContainer" unique_id=924404606]
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
 theme_override_constants/separation = 26
 
-[node name="continue" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1667070041]
+[node name="continue" type="Button" parent="MarginContainer/main bottons" unique_id=1667070041]
+visible = false
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "Continue"
 
-[node name="new_game" type="Button" parent="MarginContainer/VBoxContainer" unique_id=198524084]
+[node name="new_game" type="Button" parent="MarginContainer/main bottons" unique_id=198524084]
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "New Game"
 
-[node name="endings" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2066499064]
+[node name="endings" type="Button" parent="MarginContainer/main bottons" unique_id=2066499064]
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "Endings"
 
-[node name="settings" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1538152959]
+[node name="settings" type="Button" parent="MarginContainer/main bottons" unique_id=1538152959]
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "Settings"
 
-[node name="exit" type="Button" parent="MarginContainer/VBoxContainer" unique_id=2127713988]
+[node name="exit" type="Button" parent="MarginContainer/main bottons" unique_id=2127713988]
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "Exit"
@@ -69,3 +72,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1432585907]
+stream = ExtResource("4_yjhrv")
+autoplay = true
+
+[node name="settings" parent="." unique_id=1125479026 instance=ExtResource("5_gnmhi")]
+layout_mode = 1
+
+[connection signal="pressed" from="MarginContainer/main bottons/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="MarginContainer/main bottons/new_game" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="MarginContainer/main bottons/endings" to="." method="_on_endings_pressed"]
+[connection signal="pressed" from="MarginContainer/main bottons/settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="MarginContainer/main bottons/exit" to="." method="_on_exit_pressed"]

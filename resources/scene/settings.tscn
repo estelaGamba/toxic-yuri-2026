@@ -1,0 +1,113 @@
+[gd_scene format=3 uid="uid://bonnt7io21dd7"]
+
+[ext_resource type="FontFile" uid="uid://2iji6t6qhr7g" path="res://arts/fonts/MartianMono-VariableFont_wdth,wght.ttf" id="1_3c763"]
+[ext_resource type="Script" uid="uid://b07dly13jgqmt" path="res://resources/scripts/settings.gd" id="1_qhc0r"]
+[ext_resource type="Theme" uid="uid://cvd64ay2px41j" path="res://arts/menu/main menu botons.tres" id="2_pvg2g"]
+[ext_resource type="Shader" uid="uid://gdox24hp6nm2" path="res://resources/shader/blur_shader.gdshader" id="2_xdd5t"]
+[ext_resource type="Script" uid="uid://cwkbj8i2rv5vk" path="res://resources/scripts/audio_control.gd" id="4_4il21"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_yfq2a"]
+shader = ExtResource("2_xdd5t")
+shader_parameter/lod = 0.92400004389
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3c763"]
+bg_color = Color(0.4509804, 0.6313726, 0.69803923, 0.61960787)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhc0r"]
+bg_color = Color(0.34792784, 0.6105583, 0.92463064, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4il21"]
+bg_color = Color(0.28627452, 0.5019608, 0.75686276, 1)
+
+[node name="settings" type="Control" unique_id=1125479026]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qhc0r")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=682742274]
+material = SubResource("ShaderMaterial_yfq2a")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1387336335]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -196.5
+offset_top = -184.5
+offset_right = 196.5
+offset_bottom = 184.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3c763")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel" unique_id=601491419]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_bottom = 18
+
+[node name="Label" type="Label" parent="Panel/MarginContainer" unique_id=85354292]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("1_3c763")
+theme_override_font_sizes/font_size = 23
+text = "settings"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Panel/MarginContainer" unique_id=1643493762]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("2_pvg2g")
+text = "back"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Panel" unique_id=437032200]
+layout_mode = 0
+offset_left = 0.5
+offset_top = 76.5
+offset_right = 394.5
+offset_bottom = 171.5
+theme_override_constants/margin_left = 22
+
+[node name="Label" type="Label" parent="Panel/MarginContainer2" unique_id=1763734429]
+layout_mode = 2
+text = "volume"
+
+[node name="audioControl" type="HSlider" parent="Panel" unique_id=174108635]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -256.5
+offset_top = -66.0
+offset_right = -18.5
+offset_bottom = -50.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_qhc0r")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_4il21")
+max_value = 1.0
+step = 0.05
+value = 1.0
+script = ExtResource("4_4il21")
+audio_busao = "Master"
+
+[connection signal="pressed" from="Panel/MarginContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="value_changed" from="Panel/audioControl" to="Panel/audioControl" method="_on_value_changed"]
