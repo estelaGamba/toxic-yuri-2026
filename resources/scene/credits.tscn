@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://bl56jjddyya5r"]
+
+[ext_resource type="FontFile" uid="uid://2iji6t6qhr7g" path="res://arts/fonts/MartianMono-VariableFont_wdth,wght.ttf" id="1_7advt"]
+[ext_resource type="Script" uid="uid://bj78kbtrvnwxg" path="res://resources/scripts/credits.gd" id="1_oqtkf"]
+[ext_resource type="FontFile" uid="uid://ckegtts4wqo64" path="res://arts/fonts/RubikMonoOne-Regular.ttf" id="2_oqtkf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xk50k"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="ScrollContainer" type="ScrollContainer" unique_id=754076935 node_paths=PackedStringArray("texto_node")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xk50k")
+script = ExtResource("1_oqtkf")
+texto_node = NodePath("MarginContainer/RichTextLabel")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=173443927]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer" unique_id=368891638]
+layout_mode = 2
+theme_override_fonts/normal_font = ExtResource("1_7advt")
+theme_override_fonts/bold_font = ExtResource("2_oqtkf")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 20
+theme_override_font_sizes/bold_italics_font_size = 20
+theme_override_font_sizes/italics_font_size = 20
+theme_override_font_sizes/mono_font_size = 20
+bbcode_enabled = true
+text = "[center]
+[b]project l3xa[/b]
+
+[b]credit[/b]
+Estelapunk: Ideas, Programmer and Concept art
+Lunaleandroart: Ideas, Storytelling
+Sun_de_line: Concept, Title screen art 
+Madmaryxd: Ideas, UI desing
+Justdeanchillin: Music
+sourcheese: concept art
+
+[b]softweres[/b]
+godot 4 with dialogic 2
+krita
+
+[b]font text[/b]
+Rubik Mono one 
+Martian Mono"
+fit_content = true

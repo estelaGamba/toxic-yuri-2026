@@ -1,14 +1,14 @@
 # colocar som de despertador
 # #audio "res://arts/musics/electronic-alarm-clock.mp3" [volume="-5.5"]
-[background arg="res://arts/big text on screen/chapter 1.png" fade="0.0"]
+[background arg="res://arts/splash art/big text on screen/chapter 1.png" fade="0.0"]
 [wait_input]
-[background arg="res://arts/splash art/splash arts/place holder 11.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 11.png" fade="0.5"]
 My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
 fade out
 fade in
-[background arg="res://arts/splash art/splash arts/place holder 12.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 12.png" fade="0.5"]
 I am back a the medical lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
-[background arg="res://arts/splash art/splash arts/place holder 13.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 13.png" fade="0.5"]
 Once again, I approach L3XA.
 It feels different this time. I stare at their serene face, and it somehow looks familiar. being here, right next to it, I feel in the air a familiar sensation that I can’t quite describe.
 The specimen also seems to be reacting to my approach. The closer I get, the more I see its facial muscles twitching. It relaxes when I walk away from it.
@@ -20,12 +20,12 @@ I look around, trying to find the person who spoke to me. Nobody is paying atten
 stranger: “I didn’t expect we would meet here, of all places.”
 My eyes turn in the direction of L3XA’s tank. The creature is still static, its eyes are still closed.
 alien: “Yes, that's me. Ironic that I can’t see you now, and you couldn’t see me before.”
-- PRETEND NOT TO LISTEN
+- Pretend to ignore
 	jump chapter 1/PRETEND NOT TO LISTEN
-- RESPOND
+- Respond
 	jump chapter 1/LISTEN
 label PRETEND NOT TO LISTEN
-[background fade="0.0"]
+[background fade="0.5"]
 join alien (neutra no tubo) left [mirrored="true"]
 join doctor right
 After a confused pause, I decide to continue walking as if nothing changed. I don’t know what’s happening right now, and I want to know more before I commit to a reaction.
@@ -38,7 +38,7 @@ I decide to venture a response.
 update doctor [mirrored="true"]
 jump chapter 1/main
 label LISTEN
-[background fade="0.0"]
+[background fade="0.5"]
 join alien (neutra no tubo) left [mirrored="true"]
 join doctor right [mirrored="true"]
 \doctor: “Hey, excuse me?”

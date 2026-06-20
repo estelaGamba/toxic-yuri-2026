@@ -1,0 +1,8 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://bnrqjoq4eq3v"]
+
+[ext_resource type="Texture2D" uid="uid://bo4i1fa73sian" path="res://arts/menu/box botao escolhas 02.png" id="1_6811j"]
+
+[resource]
+texture = ExtResource("1_6811j")
+texture_margin_top = 15.0
+texture_margin_bottom = 15.0

@@ -45,6 +45,8 @@ scene = ExtResource("7_jqq3a")
 script = ExtResource("2_ibmpy")
 scene = ExtResource("8_k6ddq")
 overrides = {
+"boxes_stylebox_hovered": "\"res://arts/menu/choises_box_texture_2.tres\"",
+"boxes_stylebox_normal": "\"res://arts/menu/choises_box_texture_1.tres\"",
 "font_use_global": "false"
 }
 

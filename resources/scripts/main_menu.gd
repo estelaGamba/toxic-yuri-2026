@@ -15,15 +15,14 @@ func _ready() -> void:
 func _on_new_game_pressed() -> void:
 	get_tree().change_scene_to_file("res://resources/scene/game.tscn")
 
-func _on_endings_pressed() -> void:
+func _on_endings_pressed() -> void: 
 	#main_bottons.visible = false
 	pass # Replace with function body.
 
-func _on_settings_pressed() -> void:
-	#main_bottons.visible = false
+func _on_settings_pressed() -> void: #abre o menu das confings
 	settings.visible = true
 	pass # Replace with function body.
 
 func _on_exit_pressed() -> void:
-	get_tree().quit()
+	get_tree().quit() #só sai do jogo
 	

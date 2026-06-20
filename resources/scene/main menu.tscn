@@ -15,6 +15,15 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_n1bfg")
 
+[node name="TextureRect" type="TextureRect" parent="." unique_id=317965950]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=34813483]
 layout_mode = 1
 anchors_preset = 15
@@ -64,20 +73,12 @@ theme_override_fonts/font = ExtResource("3_aoh5q")
 theme_override_font_sizes/font_size = 66
 text = "project l3xa"
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=317965950]
-visible = false
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1432585907]
 stream = ExtResource("4_yjhrv")
 autoplay = true
 
 [node name="settings" parent="." unique_id=1125479026 instance=ExtResource("5_gnmhi")]
+visible = false
 layout_mode = 1
 
 [connection signal="pressed" from="MarginContainer/main bottons/continue" to="." method="_on_continue_pressed"]

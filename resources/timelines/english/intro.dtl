@@ -8,14 +8,14 @@ I can only hope to reach her level of brilliance one day.
 Anyhow, here I am filling her shoes.[br]I am only a specialist on sea life, and was contented with leading a small lab at a peripheral planet, not far from here.
 I’m here because I was the closest person with significant expertise to fill the role in a pinch.
 The Columbus would never hire me in regular circumstances… but I am ready to show that I am more than they give me credit for.
-[background arg="res://arts/splash art/splash arts/place holder 2.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 2.png" fade="0.5"]
 I approach the bridge of the ship. The golden, imposing metal doors don’t let me mistake this place for any other than the center of command of the SS Columbus.
 \doctor: "Doctor Beverly Crusher, reporting to the bridge."
 The doors slide open, and I enter.
-[background arg="res://arts/splash art/splash arts/place holder 3.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 3.png" fade="0.5"]
 I see lots of officers walking around the bridge, busy with their chores. The Captain and his Commander are standing side to side at the center of the command station
 looking very official, waiting for me to approach them. I feel a bit nervous as I walk the full distance to reach them, under their fixed gaze. They are already measuring me.
-[background fade="1.0"]
+[background fade="0.5"]
 join doctor right [mirrored="true"]
 join captain left
 # preciso do sprite do general e preciso saber se ele é importante na historia
@@ -35,14 +35,13 @@ commander: “This is an escort mission for the Empire… a special request from
 commander: You will update us on its vital signs hourly, and report if anything, anything, changes. You understand?”
 \doctor: “I understand, sir.”
 He slides a pass key on the lab door, and it opens. I enter after him.
-leave commander
-leave doctor
-[background arg="res://arts/splash art/splash arts/place holder 4.png" fade="0.0"]
+leave --All--
+[background arg="res://arts/splash art/splash arts/place holder 4.png" fade="0.5"]
 The medical laboratory of the SS Columbus is impressive.[br]Just one of its wings is much bigger than my small lab at Thetra 4.
 There are specimens of several plant and life forms that I’m unfamiliar with, all cooped up inside large glass containers, immersed in liquid.
 There are lab assistants and researchers all over the place, buzzing with nervous energy. I am in command of all these people.
 And my most important mission is a single specimen out of this collection.
-[background arg="res://arts/splash art/splash arts/place holder 5.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 5.png" fade="0.5"]
 We approach the big glass tank. [br]There’s lots of feeding tubes coming out of it. I know that they carry secretion ous of the tank, and take nutrients in. They all connect to the body floating inside.
 I take a good look at it. It’s definitely from a humanoid, sapient species. Even though it’s unconscious righ now, I feel a very calming presence as I stand next to it.
 Its face looks almost serene, like it knows it’s being taken care of, and everything will be okay.
@@ -52,7 +51,7 @@ That would explain the effort that’s been put in preserving this individual. B
 Since the war started, they’ve had to cut back on research on foreign civilizations and focus on the war effort. We can’t afford the level of academic research that we once had… unless it helps the army…
 …Something about this makes me uneasy.
 label all timee doctor
-[background fade="0.0"]
+[background fade="0.5"]
 join commander left
 join doctor right
 commander: “Doctor, I want to see you outside for a moment.”
@@ -79,11 +78,11 @@ commander: “Now, now, that’s all in the past. I’m sure you will do your jo
 leave commander
 …[pause][br]I can’t breathe.
 leave doctor
-[background arg="res://arts/splash art/splash arts/place holder 6.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 6.png" fade="0.5"]
 I go back to the lab, and lock myself in the bathroom, and it’s a while before I can speak to anyone again.
 fade out
 fade in
-[background arg="res://arts/splash art/splash arts/place holder 7.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 7.png" fade="0.5"]
 I’ve been looking at Dr. Pulaski’s documents on the specimen. It’s officially being called L3XA. Well, I guess that means that it’s not a very developed species then.
 If it could communicate with us in any formal way, we may be able to know its name. But again, it’s being transported as cargo, and not as a patient in the sickbay.
 L3XA’s vital signs had been fluctuating for a long time, but they’d been improving for the last few weeks. However, only a couple days ago, all the metabolic processes were increased dramatically, and the report shows lots of unusual activity.
@@ -94,6 +93,6 @@ I can imagine the stress she was under, with her superiors breathing down her ne
 “Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
 … Was that what he meant when he said that…? What exactly was Natasha Pulaski dealing with?...
 fade out
-[background arg="res://arts/splash art/splash arts/place holder 9.png" fade="0.0"]
+[background arg="res://arts/splash art/splash arts/place holder 9.png" fade="0.5"]
 After a long shift at the lab, and having made many visits to the bridge to report L3XA’s progress, I finally got a few hours to sleep.
 jump dream 1/
