@@ -24,5 +24,6 @@ func _on_settings_pressed() -> void: #abre o menu das confings
 	pass # Replace with function body.
 
 func _on_exit_pressed() -> void:
-	get_tree().quit() #só sai do jogo
+	get_tree().quit()  #jumpscare de fechar jogo
+
 	

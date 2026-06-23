@@ -8,10 +8,8 @@ func _ready() -> void:
 
 func _on_dialogic_signal(argument:String):
 	if argument == "cabou":
-		get_tree().quit()
+		get_tree().change_scene_to_file("res://resources/scene/credits.tscn")
 		#quando acabar rodar os creditos
-		#mas agora que ainda nao ta terminado so fechar o jogo
-		#jumpscare de fechar jogo
 
 func sair_do_jogo() -> void:
 	pass
