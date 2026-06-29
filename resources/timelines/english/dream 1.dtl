@@ -24,6 +24,7 @@ stranger: “Is this place not beautiful?”
 	jump dream 1/yes
 - no
 	jump dream 1/no
+	set {fdp} += 1.0
 	# posso add uma variavel de contador de fdp aqui
 label yes
 \doctor: “... I guess I was being too serious back there. I can’t deny that there is some beauty to this view. I’ve never seen a place like this."

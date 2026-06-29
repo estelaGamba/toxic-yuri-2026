@@ -60,4 +60,5 @@ alien: “Go ahead. Ask me anything.”
 \doctor: “Okay so… how do you do this? The telepathy, I mean.”
 alien: “It’s how my species communicates. However, in this state, I can’t hold our connection for very long.
 alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.”
+leave --All--
 [signal arg="cabou"]

@@ -18,7 +18,7 @@ horizontal_scroll_mode = 0
 vertical_scroll_mode = 3
 script = ExtResource("1_oqtkf")
 texto_node = NodePath("MarginContainer/RichTextLabel")
-tempo_credito = 15.0
+tempo_credito = 20.0
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=173443927]
 layout_mode = 2
@@ -53,6 +53,11 @@ krita
 [b]font text[/b]
 Rubik Mono one 
 Martian Mono
+
+[b]sound efects[/b]
+doom 1 & 2
+
+
 
 thanks for playing :3
 [/center]"

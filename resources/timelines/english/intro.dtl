@@ -11,7 +11,9 @@ The Columbus would never hire me in regular circumstances… but I am ready to s
 [background arg="res://arts/splash art/splash arts/place holder 2.png" fade="0.5"]
 I approach the bridge of the ship. The golden, imposing metal doors don’t let me mistake this place for any other than the center of command of the SS Columbus.
 \doctor: "Doctor Beverly Crusher, reporting to the bridge."
-The doors slide open, and I enter.
+# a tela fica preta e tem som de porta abrir
+[wait_input]
+#The doors slide open, and I enter.
 [background arg="res://arts/splash art/splash arts/place holder 3.png" fade="0.5"]
 I see lots of officers walking around the bridge, busy with their chores. The Captain and his Commander are standing side to side at the center of the command station
 looking very official, waiting for me to approach them. I feel a bit nervous as I walk the full distance to reach them, under their fixed gaze. They are already measuring me.

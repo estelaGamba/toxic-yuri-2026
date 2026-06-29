@@ -37,6 +37,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "chapter 1": "res://resources/timelines/english/chapter 1.dtl",
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
+"fake": "res://resources/timelines/fake.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"
 }
 layout/style_directory={
@@ -90,6 +91,8 @@ translation/file_mode=1
 translation/translation_folder=""
 translation/save_mode=0
 translation/add_separator=false
+save/autosave=true
+save/autosave_mode=0
 
 [display]
 

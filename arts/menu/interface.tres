@@ -34,7 +34,9 @@ scene = ExtResource("6_a1d6j")
 overrides = {
 "box_color_custom": "Color(1, 1, 1, 1)",
 "box_color_use_global": "false",
-"box_panel": "\"res://arts/menu/text_box_texture.tres\""
+"box_panel": "\"res://arts/menu/text_box_texture.tres\"",
+"text_size": "25.0",
+"text_use_global_size": "false"
 }
 
 [sub_resource type="Resource" id="Resource_4qlp5"]
@@ -73,4 +75,4 @@ layer_info = {
 "16": SubResource("Resource_a8l01"),
 "17": SubResource("Resource_5f708")
 }
-metadata/_latest_layer = "15"
+metadata/_latest_layer = "13"
