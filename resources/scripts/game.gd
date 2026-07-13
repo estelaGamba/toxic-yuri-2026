@@ -2,7 +2,7 @@ extends Node2D
 
 
 func _ready() -> void:
-	Dialogic.start("intro")
+	Dialogic.start("chapter 1")
 	Dialogic.signal_event.connect(_on_dialogic_signal)
 	pass
 

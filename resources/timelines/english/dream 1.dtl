@@ -1,13 +1,11 @@
 [background arg="#000000ff" fade="0.5"]
 …
-[background arg="res://arts/splash art/splash arts/place holder 10.png" fade="0.0" transition="Simple Fade"]
+[background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
 In a dreamy state, I feel myself floating away in an infinitely expanding open space. I am surrounded by stars, galaxies, and everything is silent around me.
 I see colors that I’ve never seen before. My body is naked, and the air is warm.
-[background fade="0.5"]
-join doctor left
 stranger: “I like coming here too.”
 I didn't expect the voice that spoke to me. It caresses my ear, disembodied, making my skin crawl. I know now that there is somebody else with me here, only I can’t see them.
-join alien (neutra sonho) right
+join alien (sonho/feliz e olho fechado) center
 stranger: “I like coming here when things down there become too difficult”
 \doctor: “...Who are you?”
 stranger: “I am a visitor of this place, same as you.”

@@ -1,0 +1,78 @@
+[background arg="res://arts/splash art/big text on screen/chapter 2.png" fade="0.0"]
+[wait_input]
+[background arg="#000000ff" fade="0.0"]
+After a long shift at the lab, and having made many visits to the bridge to report L3XA’s progress, I finally got a few hours to sleep.
+[background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
+In a dreamy state, I feel myself floating away in an infinitely expanding open space.
+I am surrounded by stars, galaxies, and everything is silent around me. I see colors that I’ve never seen before. My body is naked, and the air is warm.
+stranger: I like coming here too.
+I didn't expect the voice that spoke to me.
+It caresses my ear, disembodied, making my skin crawl. I know now that there is somebody else with me here, only I can’t see them.
+stranger: I like coming here when things down there become too difficult.
+label perguntas
+- WHO ARE YOU?
+	jump chapter 2/who are you
+- WHERE ARE WE?
+	jump chapter 2/WHERE ARE WE?
+- WHY CAN”T I SEE YOU?
+	jump WHY CAN”T I SEE YOU?
+- OKAY... (no questions)
+	jump return
+label who are you
+\doctor: ...Who are you?
+stranger: I am a visitor of this place, same as you.
+\doctor: Of this dream, you mean?
+alien: Ah, so you’re sleeping right now?
+alien: I have to make some conscious effort to come here, you see?
+alien: Some people just slip up here unawares.
+\doctor: Yes, I am sleeping. This is the first time that I have had a dream like this.
+alien: It’s lucky then, that I found you here. Tell me, don’t you think it’s relaxing up here?
+I remember how it felt a few moments ago, when I thought I was completely alone.
+\doctor: Yes, you’re right. There’s just… too much stuff going on in my life right now.\
+It’s not been easy.
+jump perguntas
+label WHERE ARE WE?
+\doctor: Where are we supposed to be?
+stranger:  In a spot somewhere in the universe. I don’t know exactly. But it has so many different things to see.
+\doctor: But how did you end up here, if you say you’re not dreaming?
+stranger: I found the path to this place one day, when I was at the worst moment of my life. I have come here ever since. To stay… and look.
+jump perguntas
+label WHY CAN”T I SEE YOU?
+\doctor: Tell me… how come I can’t see you?
+stranger: I don’t know. I never met anyone here before. Maybe you’re just not used to it. If you make an effort, maybe you’ll see me.
+\doctor: Okay, I’ll try…
+\doctor: …
+\doctor: Okay, this is hopeless. I can’t see you. I thought you could control things in dreams.
+\doctor: Wait, does that mean… you can see me?
+I forgot that I’m naked right now.
+stranger: Don’t be shy! You look pretty!
+\doctor: “I- uh, would like you to look away, or something…”
+Promise I’m not looking…
+This is a very embarrassing dream
+jump perguntas
+label return
+stranger: I don’t know how or why you came here, buI can show you my favorite views. Look over there, that pink spot on your left.
+stranger: It happens to be a galaxy that has died a million years ago. One day, its light will no longer reach us. But you and I will be long gone.
+\doctor: That’s sad. I didn’t even get the chance to learn about it before it was gone. Now, I know I never will.
+stranger: Do you have to understand something to appreciate its beauty?
+\doctor: Yes, actually. The beauty is in understanding the intricacies of a thing, its ins and outs.
+\doctor: A mere surface level first impression can’t be actually called beautiful.
+stranger: Is this place not beautiful?
+- YES
+	jump YES
+- NO
+	jump NO
+label YES
+\doctor: ... I guess I was being too serious back there.
+\doctor:  I can’t deny that there is some beauty to this view. I’ve never seen a place like this. If anything, it makes me happy that I dreamt about it.
+\doctor: I don’t want to forget it when I wake up.
+stranger: I don’t want to forget it, either.
+jump return 2
+label NO
+\doctor: I stand by what I said. Something so vague and abstract, I can’t make sense of it.
+\doctor: If I could only know which part of the sky I was looking at, I could at least say something about it. In any case, I’ll probably forget about it when I wake up.
+stranger: I hope you end up here again, then. So I can show you everything I know, and maybe you will learn to appreciate its beauty.
+\doctor: You really want me to give in, don’t you? Okay, If I come here again, I will let you try.
+label return 2
+[background arg="#000000ff" fade="0.0"]
+My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.

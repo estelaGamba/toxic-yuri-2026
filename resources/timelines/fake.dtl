@@ -1,3 +1,25 @@
 aaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaa
-[signal arg="cabou"]
+join alien (sombra/feliz) center
+aaaaaaaaaaaaaaa [b]porra[/b]
+label escolhas
+- cu
+	jump fake/cu
+	set {fdp} += 1.0
+- tomate cru
+	jump tomate cru
+	set {fdp} += 1.0
+label cu
+hahaha
+haaaaaaaahahaha
+if {fdp} <= 2.0:
+	jump escolhas
+else:
+	jump normar
+label tomate cru
+heeeey >\:(
+if {fdp} >= 2.0:
+	jump normar
+else:
+	jump escolhas
+label normar
+* som de peido *

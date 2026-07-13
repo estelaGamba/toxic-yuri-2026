@@ -36,6 +36,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "chapter 1": "res://resources/timelines/english/chapter 1.dtl",
+"chapter 2": "res://resources/timelines/english/chapter 2.dtl",
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
 "fake": "res://resources/timelines/fake.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"
@@ -61,8 +62,8 @@ animations/leave_default_wait=true
 animations/cross_fade_default_length=0.5
 choices/autofocus_first=true
 choices/delay=0.2
-choices/reveal_delay=0
-choices/reveal_by_input=true
+choices/reveal_delay=0.5
+choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/input_action="dialogic_default_action"
@@ -82,7 +83,8 @@ audio/channel_defaults={
 }
 }
 variables={
-"fdp": 0
+"fdp": 0.0,
+"perguntas_1": 0.0
 }
 history/simple_history_enabled=true
 translation/enabled=true

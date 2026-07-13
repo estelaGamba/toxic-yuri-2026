@@ -1,64 +1,123 @@
-# colocar som de despertador
-# #audio "res://arts/musics/electronic-alarm-clock.mp3" [volume="-5.5"]
 [background arg="res://arts/splash art/big text on screen/chapter 1.png" fade="0.0"]
 [wait_input]
-[background arg="res://arts/splash art/splash arts/place holder 11.png" fade="0.5"]
-My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
-fade out
-fade in
-[background arg="res://arts/splash art/splash arts/place holder 12.png" fade="0.5"]
-I am back a the medical lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
-[background arg="res://arts/splash art/splash arts/place holder 13.png" fade="0.5"]
-Once again, I approach L3XA.
-It feels different this time. I stare at their serene face, and it somehow looks familiar. being here, right next to it, I feel in the air a familiar sensation that I can’t quite describe.
-The specimen also seems to be reacting to my approach. The closer I get, the more I see its facial muscles twitching. It relaxes when I walk away from it.
-The computer monitor shows some alteration in the metabolic processes. It’s nothing alarming, but it’s enough to go on my hourly report to the bridge.
-I continue my rounds, absent-mindedly, when something else unusual happens.
-stranger: “So it’s you then, that I saw the other night.”
-This voice. I recognize it.
-I look around, trying to find the person who spoke to me. Nobody is paying attention.
-stranger: “I didn’t expect we would meet here, of all places.”
-My eyes turn in the direction of L3XA’s tank. The creature is still static, its eyes are still closed.
-alien: “Yes, that's me. Ironic that I can’t see you now, and you couldn’t see me before.”
-- Pretend to ignore
-	jump chapter 1/PRETEND NOT TO LISTEN
-- Respond
-	jump chapter 1/LISTEN
-label PRETEND NOT TO LISTEN
-[background fade="0.5"]
-join alien (neutra no tubo) left [mirrored="true"]
-join doctor right
-After a confused pause, I decide to continue walking as if nothing changed. I don’t know what’s happening right now, and I want to know more before I commit to a reaction.
-alien: “Are you listening to me right now? I know you are, you are the only person that can hear me.”
-I continue silent, trying not to show any disturbance on my face to any onlookers.
-alien: “You were more open to conversation when we first met. But I guess I spooked you. Take you time, and we can talk.”
-Is L3XA really referring to last night’s… dream? What was that all about?
-alien: “...I guess that you don’t know that you can talk to me like I do. If you form your thoughts in the shape of words and send them to me, I will pick up on them.”
-I decide to venture a response.
-update doctor [mirrored="true"]
+[background arg="res://arts/splash art/backgrounds/corredor.png" fade="0.0"]
+This is my first day at the SS Columbus. I was assigned the post of Chief Medical Scientist at the ship, for assistance in an escort mission.
+I came here in a bit of a rush.
+As I have been told, the last Chief Medical Scientist, Dr. Natalia Pulaski,  has died suddenly, in the course of her duties.
+I have many thoughts about this, but these must wait.
+This must be the bridge of the ship.
+The golden, imposing metal doors won’t let me mistake this place for any other than the center of command of the SS Columbus.
+\doctor: “Doctor Daphnis, reporting to the bridge.”
+audio "res://arts/sfx/vadim_makes_sound-sci-fi-door-unlock-and-hydraulic-open-2-546619.mp3" [volume="-20.0"]
+[background arg="res://arts/splash art/backgrounds/sala_de_comando.png" fade="0.0"]
+I see lots of officers walking around the bridge, busy with their chores.
+join commander (neutro) center
+I look for the Captain of the ship, but the only superior present is the Commander, judging from the patent in his uniform.
+I look for the Captain of the ship, but the only superior present is the Commander, judging from the patent in his uniform.
+The Commander is standing at the center of the control station, looking very official, waiting for me to approach him.
+I feel a bit nervous as I walk the full distance to reach him, under his fixed gaze.
+He is already measuring me.
+\doctor: “Reporting to service, sir.”
+commander: “Chief Medical Scientist Daphnis, welcome aboard. I am Commander Flagg, at present in charge of the Columbus.
+commander: I trust that your voyage here was safe?”
+\doctor: “Yes sir, thank you. I came as soon as possible. Thank you for arranging my travel in that cargo ship.”
+commander: “We apologize for not providing comfortable accommodations, but given the emergency that we are in right now, it hat to be done.”
+I had to sit in a corner inside a noisy, stinky warehouse of fish containers. It was not fun.
+\doctor: Oh no, sir. There was no issue at all.
+\doctor: I hope to be of service as Dr. Pulaski’s Replacement, given the… circumstances.
+Did you know Pulaski, Dr. Daphnis?
+- SHE WAS A GOOD SCIENTIST
+	jump chapter 1/A SHE WAS A GOOD SCIENTIST
+- SHE WAS A GOOD FRIEND
+	jump chapter 1/SHE WAS A GOOD FRIEND
+label SHE WAS A GOOD FRIEND
+\doctor: We met at the Imperial Academy. We got along well. She was not afraid of following her ambitions, and she helped me a lot in my studies.
+\doctor: Though we haven’t been much in contact in the last 10 years, I always thought of her as a good friend of mine.
+\doctor: It’s a great loss to all those who knew her.
 jump chapter 1/main
-label LISTEN
-[background fade="0.5"]
-join alien (neutra no tubo) left [mirrored="true"]
-join doctor right [mirrored="true"]
-\doctor: “Hey, excuse me?”
-Everyone at the lab stares at me. They look confused.
-alien: “They can’t hear me, silly. I think it will be best if you keep your cool.”
-I guess I should say something so no one thinks I'm crazy.
-\doctor: “Uhmmm, I… can somebody get me the results of the last blood test on specimen 000-96?”
-# fazer um personagem cientista
-scientist: “Yes, Ma’am, right away.”
-alien: “That was clever. It should do for now. I have a feeling we would not be able to talk for too long if they knew that I am awake.”
-\doctor: “...”
-alien: “ There is a way you can talk to me as I’m talking to you now. Listen\: try to form the words that you want to say in your mind and send them to me. Can you do that?”
-So I can just communicate with L3XA via telepathy? I should try it. There’s so much going through my head right now.
+label A SHE WAS A GOOD SCIENTIST
+\doctor: We were colleagues in the Imperial Academy.
+\doctor: She had always been an ambitious researcher, ready to jump at any opportunity to work at cutting edge research in the field of foreign lifeforms…
+\doctor: The profession has truly lost one of its brightest stars. I can only hope to reach her level of brilliance one day.
 label main
-\doctor: “...can you hear me…?”
-alien: “Yes, I can hear you. It’s been so long since I heard someone talking to me like this.”
-\doctor: “This is very new to me… can we talk? I have some questions.”
-alien: “Go ahead. Ask me anything.”
-\doctor: “Okay so… how do you do this? The telepathy, I mean.”
-alien: “It’s how my species communicates. However, in this state, I can’t hold our connection for very long.
-alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.”
+commander: My condolences then, Doctor. Your friend was a most important crewmember in the Columbus.
+commander: She was a very accomplished researcher of foreign life forms, and it’s a great loss to the medical research community.
+commander: The work she was doing here was of great interest to the Empire.
+\doctor: Thank you sir.
+\doctor: ... If I may ask, sir, I was expecting to meet the Captain here today. Is he away?”
+commander: The Captain has been called to an official meeting with the Upper echelons of the Imperial Army.
+commander: The details of this meeting, you don’t need to know.”
+No, sir, of course.
+I follow Cmd. Flagg down the corridors leading to the lab. He looks slightly amused.
+He seems less formal than when we were surrounded by other officers.
+commander: Well Doctor, I see you came prepared to make a name for yourself.
+\doctor: Pardon me, sir? I’m simply following orders.
+commander: Yes… you are… but it’s not every day that a low ranking Medical Officer gets a post at the SS Columbus.
+commander: Until now, you’ve been stuck in that backwater of a planet, looking at fish all day, am I right?
+\doctor: ...I was leading the research into the marine ecosystems of Tetra 4, yes, sir.
+commander: The way you talk, it makes it sound important, doesn’t it?
+commander: You’re only here because you’re the closest person with significant expertise to cover for Pulaski in a pinch.
+commander: But now it’s your chance to make real work.
+commander: You must understand the importance of your role here.
+\doctor: Yes, sir.
+commander: This is an escort mission for the Empire… a special request from the upper echelons.
+commander: You are to make sure a [b]key individual arrives alive[/b] at the destination You will update us on its vital signs hourly, and report if anything, and I say ANYTHING, changes.
+\doctor: “I understand, sir.”
+He slides a pass key on the lab door. I enter after him.
+audio "res://arts/sfx/vadim_makes_sound-sci-fi-door-unlock-and-hydraulic-open-2-546619.mp3" [volume="-20.0"]
+[background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
+Just one of the wings of the medical laboratory of the Columbus is much bigger than my small lab at Tetra 4.
+There are unfamiliar specimens of several plant and life forms, all cooped up inside large glass containers, immersed in liquid.
+Lab assistants and researchers are all over the place, buzzing with nervous energy.
+[background arg="res://arts/splash art/backgrounds/laboratorio_zoom.png" fade="0.0"]
+We approach the big glass tank. There’s lots of feeding tubes coming out of it.
+I know that they carry secretion out of the tank, and take nutrients in.
+They all connect to the body floating inside.
+I take a good look at it.  They are completely unconscious right now
+I have no idea what part of the galaxy they come from. I wonder how they found it…
+What is this? Who is this? Why are they important to The Imperial Government? These are questions that I’m a bit shy to ask right now.
+Since the war started, they’ve had to cut back on research on foreign civilizations and focus on the war effort.
+We can’t afford the level of academic research that we once had… unless it helps the army…
+…Something about this makes me uneasy.
+commander: Doctor, I want to see you outside for a moment.
+audio "res://arts/sfx/vadim_makes_sound-sci-fi-door-unlock-and-hydraulic-open-2-546619.mp3" [volume="-20.0"]
+[background arg="res://arts/splash art/backgrounds/corredor.png" fade="0.0"]
+commander: Here, these are your keys now. I don’t need to tell you to keep this under your guard at all times. [br][pause][b]At [pause]all[pause] times[pause], Doctor.[/b]
+\doctor: No, sir.
+This guy makes me so nervous. Why does he have to be so extra?
+commander: I have some last instructions I need to give you, so listen carefully.
+commander: This specimen may seem fragile, and you must handle it carefully, but never forget for a moment that it’s [b]dangerous[/b].
+\doctor: Dangerous, sir…?
+commander: Yes. Treat it like an extremely dangerous object and don’t take your eyes off it for a second.
+commander: We don’t know how, or why, but we are sure that that thing is capable of something terrible.
+commander: Dr. Pulaski thought that as well… but she didn’t live to figure it out.
+\doctor: ...
+commander: If you need more encouragement, let me tell you this\:
+commander: I will not hesitate to punish an insignificant Doctor Nobody if he fails to protect the safety of the lab, the safety of the ship, and the safety of the Empire.
+Do you understand?
+\doctor: ...Yes, sir.
+commander: Good. [br]I know your record, Doctor.
+commander: Your allegiance to the Empire hasn’t always been so shiny, has it? [br]\
+Anthony Daphnis, not always the model citizen?
+commander: You look much nicer now, I admit. Easier than being a real man and join the army, I suppose…?
+\doctor: ...
+commander: Now, now, we don’t have to be hung up on such details. I’m sure you will do your job diligently.
+Welcome aboard, Doctor.
 leave --All--
-[signal arg="cabou"]
+[background arg="#000000ff" fade="0.0"]
+I can’t breathe.
+I go back to the lab, and lock myself in the bathroom, and it’s a while before I can speak to anyone again.
+[background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
+I’ve been looking at Dr. Pulaski’s documents on the specimen. Species yet unidentified, gender… non applicable?
+It’s officially being called L3XA.
+I wonder why they didn’t put it’s real name in here. It looks like a sapient species. Can’t it communicate?
+L3XA’s vital signs had been fluctuating for a long time, but they’d been improving for the last few weeks.
+However, only a couple days ago, all the metabolic processes were increased dramatically, and the report shows lots of unusual activity.
+According to my assistants in the lab, Dr. Pulaski and the team spend restless nights trying to stabilize the individual
+for the sudden increase in stress after a period of dormancy could have killed it.
+She must have had a lot to deal with in her last days, right until the end… I can imagine the stress she was under
+with her superiors breathing down her neck, demanding she would save the precious Imperial cargo…
+[background arg="#000000ff" fade="0.0"]
+“Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
+… Was that what he meant when he said that…? What exactly was Natasha Pulaski dealing with?...
+jump
