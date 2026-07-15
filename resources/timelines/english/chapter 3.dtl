@@ -1,0 +1,135 @@
+[background arg="res://arts/splash art/big text on screen/chapter 3.png" fade="0.0"]
+[wait_input]
+[background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
+I am back at the lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
+Once again, I approach L3XA.
+[background arg="res://arts/splash art/backgrounds/laboratorio_zoom.png" fade="0.0"]
+It feels different this time. I stare at their serene face, and it somehow looks familiar.
+Being here, right next to it, I feel in the air a familiar sensation that I can’t quite describe.
+The specimen also seems to be reacting to my approach. The closer I get, the more I see its facial muscles twitching.
+It relaxes when I walk away from it. The computer monitor shows some alteration in the metabolic processes.
+It’s nothing alarming, but it’s enough to go on my hourly report to the bridge.
+I continue my rounds, absent-mindedly, when something else unusual happens.
+stranger: I can feel you’re close to me. [br][pause]\
+Can you still hear me…?
+This voice. I recognize it.
+I look around, trying to find the person who spoke to me. Nobody is paying attention.
+stranger: I didn’t expect we would meet here, of all places.
+My eyes turn in the direction of L3XA’s tank. The creature is still static, its eyes are still closed.
+alien: So, you recognize me. I can feel your attention turning to me. Only I can’t look at you….
+- RESPOND
+	jump RESPOND
+- PRETEND TO IGNORE
+	jump NOT LISTEN
+label RESPOND
+\doctor: Hey, excuse me?
+Everyone at the lab stares at me. They look confused.
+alien: They can’t hear me, silly. I’m speaking to you, only. Maybe it’s best if they don’t know I’m awake…
+I guess I should say something so no one thinks I'm crazy.
+\doctor: Uhmmm, I– can somebody get me the results of the last blood test on specimen 000-96?
+alien: That was clever. It should do for now.
+\doctor: ...
+alien: There is a way you can talk to me as I’m talking to you now.
+alien: Listen, try to form the words that you want to say in your mind and send them to me. Can you do that?
+So I can just communicate with L3XA via telepathy? I should try it. There’s so much going through my head right now.
+jump main
+label NOT LISTEN
+After a confused pause, I decide to continue walking as if nothing changed. I don’t know what’s happening right now, and I want to know more before I commit to a reaction.
+alien: Are you listening to me right now? I know you are, you are the only person that can hear me.
+I continue silent, trying not to show any disturbance on my face to any onlookers.
+<Empty Text Event>
+alien: You were more open to conversation when we first met. But I guess I spooked you.
+\
+Is L3XA really referring to last night’s… dream? What was that all about?
+alien: ...I guess that you don’t know that you can talk to me like I do. If you form your thoughts in the shape of words and send them to me, I will pick up on them.
+I decide to venture a response.
+label main
+\doctor: ...can you hear me…?
+alien: Yes, I can hear you. It’s been so long since I heard someone talking to me like this.
+alien: <Empty Text Event>
+alien: <Empty Text Event>
+\doctor: This is very new to me… can we talk? I have some questions.
+alien: Go ahead. Ask me anything.
+\doctor: Okay so… how do you do this? The telepathy, I mean.
+alien: It’s how my species communicates.
+alien: However, in this state, I can’t hold our connection for very long.
+alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.
+<Empty Text Event>
+<Empty Text Event>
+\doctor: I think we should start with a proper introduction.\
+
+\doctor: Hello, I’m Dr. Daphnis. I’m here to help you.
+alien: Help me…?
+\doctor: Yes, I’m the Chief Medical Officer, and I’m here to make sure you get better.
+\doctor: What is your name?
+alien: I think you papers call me… L3XA
+\doctor: Okay, we can use that name, then.
+\doctor: You must have gone through a lot of pain lately, but I’ll make sure you feel as comfortable as possible.
+alien: ... can you really do that?
+\doctor: Yes, and you can help me. Tell me, how are you feeling, right now?
+alien: It… hurts…everywhere…
+\doctor: I’m going to increase your dosage of painkillers, okay
+\doctor: Tell me, does that feel better?
+alien: ... A little, yes
+\doctor: Good. Can you move at all? like your fingertips?
+alien: ... no, I don’t think so. my mind can talk to you, but I can’t move.
+\doctor: It’s okay, that will do, for now.
+\doctor: It’s important that you keep talking to me as I look at your stats.\
+tell me…
+- WHERE DO YOU COME FROM?
+- WHY DO THEY CALL YOU DANGEROUS?
+	jump WHY DO THEY CALL YOU DANGEROUS?
+\doctor: Where do you come from? I've never seen someone like you before.
+alien: I come from ancient, distant stars from another galaxy.
+alien: y kind travels alone, going from planet to planet. We seek knowledge, which we learn from those that cross our paths.
+\doctor: Sounds like us humans. We also seek answers in different star systems, and have done so since we were no longer stuck around a single celestial body.
+alien: Our travel is not about finding answers, it’s about having experiences.
+alien: We believe that this is our way of becoming eternal, living on the memories of others. Is their collective consciousness, we are one.”
+\doctor: “This is beautiful. i never heard of this before. Your people are a wonderful form of life
+\doctor: Is it too difficult  to find one of your people
+alien: I wish I could see one of them again… But I think that I must wait until the time is right. We can’t rush things.
+alien: It’s becoming more difficult every day.
+\doctor: I’m going to make sure you get better to meet them once again.
+alien: Thank you, Doctor
+L3XA’s story is fascinating. But I have a feeling they aren't telling me everything. I wonder what happened to them.
+jump main 2
+label WHY DO THEY CALL YOU DANGEROUS?
+\doctor: Perhaps it’s not a good moment to say this… but the crew seems to be somewhat… afraid of you. Can you tell me why?
+alien: They would have warned you. It’s only natural.
+\doctor: What do you mean?
+alien: They didn’t tell you?
+\doctor: They only told me to keep you alive.
+alien: Don’t they want you to find things out about me?
+alien: Like how I can speak to you, for example?
+\doctor: No. I’m only here to help you.
+alien: ... I really wish you could help me.
+L3XA’s vital signs are becoming unstable
+\doctor: I need you to keep calm okay? Listen to my voice. You’re going to be fine. let me give you a dosage of this…
+Things seem to calm down
+alien: Thank you, Doctor.
+alien: You’re really taking good care of me.
+alien: Don’t leave me.
+\doctor: I won’t. I’m still with you
+I feel uneasy… L3XA is very unstable. I wonder what can happen if she loses control…
+label main 2
+alien: I am becoming tired now… I have to let you go…
+\doctor: L3XA, wait, I still need you to-
+alien: ...Will you be okay…?
+L3XA’s presence in my head is becoming weaker…
+leave --All--
+[background arg="#000000ff" fade="0.0"]
+alien: “...meet me again tonight…”
+…
+This is it. I’ll have to wait until I can talk to L3XA… when they are ready again
+Their situation is very delicate… If I make a mistake now, they may suffer the consequences…
+This is… too much! The first time I ever talked with someone using telepathy! To think that it was even possible!
+I’ll have to keep this under wraps for now. Cmd. Flagg can’t know about any of this.
+I know full well that what I'm doing is treason. But I need to learn more before I can talk to anyone about this.
+captain: “Don’t take your eyes off it for a second.”
+Is what he said…
+I can’t trust anyone just now…
+I need to think…
+…
+Another long shift has come to an end.
+I head to my quarters, and I’m ready for some night’s sleep.
+they did say we would meet again…

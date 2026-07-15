@@ -33,7 +33,7 @@ It’s not been easy.
 jump perguntas
 label WHERE ARE WE?
 \doctor: Where are we supposed to be?
-stranger:  In a spot somewhere in the universe. I don’t know exactly. But it has so many different things to see.
+stranger: In a spot somewhere in the universe. I don’t know exactly. But it has so many different things to see.
 \doctor: But how did you end up here, if you say you’re not dreaming?
 stranger: I found the path to this place one day, when I was at the worst moment of my life. I have come here ever since. To stay… and look.
 jump perguntas
@@ -64,7 +64,7 @@ stranger: Is this place not beautiful?
 	jump NO
 label YES
 \doctor: ... I guess I was being too serious back there.
-\doctor:  I can’t deny that there is some beauty to this view. I’ve never seen a place like this. If anything, it makes me happy that I dreamt about it.
+\doctor: I can’t deny that there is some beauty to this view. I’ve never seen a place like this. If anything, it makes me happy that I dreamt about it.
 \doctor: I don’t want to forget it when I wake up.
 stranger: I don’t want to forget it, either.
 jump return 2
@@ -76,3 +76,4 @@ stranger: I hope you end up here again, then. So I can show you everything I kno
 label return 2
 [background arg="#000000ff" fade="0.0"]
 My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
+jump chapter 3/
