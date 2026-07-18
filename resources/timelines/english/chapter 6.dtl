@@ -3,3 +3,86 @@ audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [wait_input]
 audio music "res://arts/musics/music.wav"
 [background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
+I arrive at our meeting place, but it feels different. Emptier. Colder.
+\doctor: L3XA? Are you there?
+\doctor: L3XA, please! tell me that you’re still here.
+join alien (sonho/feliz e olho aberto) center
+alien: Doctor…
+alien: You’re here again…
+alien: You won’t stop coming after me.
+\doctor: You almost died today!
+\doctor: Your vitals were on the ground!
+\doctor: You- [pause]you crashed the lab!
+alien (sonho/triste e boca fecada): I really don’t want to talk about that…
+alien (sonho/feliz e olho fechado): You were very good there,saving my life.
+alien: I guess I need to thank you.
+\doctor: L3XA, I need you to talk to me.
+\doctor: Tell me what happened to you.
+\doctor: Why did they take you out of the tank last night?
+\doctor: Where did they take you?!
+\doctor: I don’t understand what’s going on!
+alien (sonho/triste e boca fecada): ...
+alien: Every night..
+alien: They take me out of the tank to get me to a different area of the ship.
+alien: They take me to Flagg.
+\doctor: To Flagg?!
+- IT DOESN'T MATTER
+	jump IT DOESN'T MATTER
+- I NEED TO KNOW
+	jump I NEED TO KNOW
+label IT DOESN'T MATTER
+\doctor: I just need to know if you're okay. How are you feeling?
+alien (sonho/triste e boca aberta): I feel dizzy.
+alien: Since I came  back to my body after speaking to you, it’s as if my mind has been shaken in a way that I never felt before.
+alien: Usually, when I’m back inside my body, I feel all the pains that they gave me.
+alien (sonho/triste e boca fecada): But this time, I only felt a deep emptiness.
+alien: As if my body was sucked from me, and flung far away.
+alien (sonho/triste e boca aberta): And I can still hear their voices all around me, screaming in pain.
+alien: And I could hear HER voice…
+alien: She-[pause] she said she loved me…
+alien: They had to pay, doctor. It was the only thing in my mind
+alien (sonho/triste e boca fecada): ...
+alien: When I came back to myself, you were talking to me.[br]For a moment, I felt peace.
+alien: But then everything came back again, and I had to come up here.
+alien: This place helped me survive.
+\doctor: L3XA. I’m sorry.
+\doctor: I shouldn’t have left you alone with them.
+\doctor: I shouldn’t have left you alone with them.
+\doctor: I should have protected you.
+alien: I’m scared, doctor. I don’t know how much I can take.
+\doctor: I’m going to protect you. I’m going to wake up right now and go to the lab and-
+alien (sonho/triste e boca aberta): Please, stay here with me.
+\doctor: But–
+alien: I need you.
+L3XA pulls me towards them, embracing me. My body feels their warmth in the midst of this cold, empty space.
+I need them too, at this moment.
+I want to be with them forever…
+leave --All--
+jump chapter 7/
+label I NEED TO KNOW
+\doctor: You have to pull yourself together and tell me what’s going on, L3XA.
+\doctor: I can’t help you if you don’t speak
+alien: ...
+alien (sonho/triste e boca aberta): I have been tortured and experimented on, even before I came here.
+alien: They opened my body before they even asked my name.
+alien: I could’t astroproject yet, so each day was worse than the next.
+alien: Then it happened.
+alien: The explosion that destroyed that lab, also sent my mind to the astral plane. Here.
+alien: When I awoke, I was in this tank. Dr Pulaski was supervising my treatment.
+alien: She told me again and again that she was doing what was good for me…
+alien: I told her about the telepathy…
+alien: But they all only wanted was to test my powers.
+alien: So the experiments started…
+alien: I hate Flagg.
+alien: He’s obsessed with turning me into a weapon
+This is a lot of information to process…
+All this time I had only a suspicion of the truth.
+L3XA is at a breaking point. And this has happened before, to disastrous consequences.
+I need to say something to L3XA
+\doctor: Thank you for telling me this, L3XA.
+\doctor: It can’t have been easy. But you were very brave.
+\doctor: I’m going to take care of you now.
+alien: You promise you won’t leave…
+\doctor: I promise, L3XA
+leave --All--
+jump chapter 7/

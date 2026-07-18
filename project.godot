@@ -41,6 +41,7 @@ directories/dtl_directory={
 "chapter 4": "res://resources/timelines/english/chapter 4.dtl",
 "chapter 5": "res://resources/timelines/english/chapter 5.dtl",
 "chapter 6": "res://resources/timelines/english/chapter 6.dtl",
+"chapter 7": "res://resources/timelines/english/chapter 7.dtl",
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
 "fake": "res://resources/timelines/fake.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"

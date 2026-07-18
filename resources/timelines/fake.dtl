@@ -1,7 +1,7 @@
 aaaaaaaaaaaaaaa
 join alien (sombra/feliz) center
 aaaaaaaaaaaaaaa [b]porra[/b]
-audio "res://arts/sfx/dragon-studio-car-crash-sound-effect-376874.mp3" [volume="-10.0"]
+When I came back to myself, you were talking to me.[br]For a moment, I felt peace.
 label escolhas
 - cu
 	set {fdp} += 1.0
