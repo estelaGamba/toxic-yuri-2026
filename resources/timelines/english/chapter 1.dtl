@@ -1,3 +1,4 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 1.png" fade="0.0"]
 [wait_input]
 [background arg="res://arts/splash art/backgrounds/corredor.png" fade="0.0"]
@@ -118,6 +119,6 @@ for the sudden increase in stress after a period of dormancy could have killed i
 She must have had a lot to deal with in her last days, right until the end… I can imagine the stress she was under
 with her superiors breathing down her neck, demanding she would save the precious Imperial cargo…
 [background arg="#000000ff" fade="0.0"]
-“Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
+commander: “Treat it like an extremely dangerous object and don’t take your eyes off it for a second.”
 … Was that what he meant when he said that…? What exactly was Natasha Pulaski dealing with?...
 jump

@@ -1,0 +1,74 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
+[background arg="res://arts/splash art/big text on screen/chapter 5.png" fade="0.0"]
+[wait_input]
+[background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
+I had barely any rest last night…
+The talk I had with L3XA in the dream made me uneasy.
+As I enter the lab, I have a bad feeling…
+scientist: Ma’am, these are the reports of the last few hours. I recommend we start stabilizing procedures immediately
+\doctor: Uh– Yes, I authorize stabilizing procedures. Send screen recordings to my station.
+scientist: Yes, Ma’am.
+What's going on?
+I read frantically through the report. L3XA began showing signs of distress a few hours ago.
+Her body seems to be on the brink of collapse.
+It began after they were plugged back in…
+Wait, what?! What does it mean L3XA was plugged back in during the night? Did they leave?
+\doctor: Who authorized this, Officer?
+scientist: The Bridge authorized this,  Ma’am.
+\doctor: They went over me?! Officer, this is entirely irregular. I expect you to report to me any change in the procedures of the lab!
+scientist: Orders of the Bridge, Ma’am. You are supposed to take it up with them.
+This is absurd. What were they doing with L3XA out of her tank?\
+Are they okay?
+[background arg="res://arts/splash art/backgrounds/laboratorio_zoom.png" fade="0.0"]
+The medical team is working on her. Monitors are showing abnormal neurological behavior.
+\doctor: All of you, move. I will take care of her, alone!
+I don’t trust any of them to handle L3XA’s delicate state. If they hid something as important as L3XA being entirely moved during the night, who knows what they can do to them…
+Pulse is agitating.
+Brainwaves are increasing.
+I try to speak inside their mind.
+\doctor: L3XA,are you with me? What’s going on
+alien: D… [pause]Doctor… Pulaski…
+alien: You came back for me…
+\doctor: L3XA… please tell  me… What did they do to you…
+alien: Why did you lie to me… Doctor…?
+\doctor: L3XA!!!
+audio "res://arts/sfx/dragon-studio-car-crash-sound-effect-376874.mp3" [volume="-15.0"]
+The emergency lamps have turned on.
+The ceiling lamps have been destroyed, as well as a handful of monitors.
+Assistants and medical officers are moving around in a frenzy.
+\doctor: Everybody, calm down, now!
+They all turn to me.
+\doctor: Return to your posts. Somebody start cleaning this mess. I’ll see what’s going on.
+I’m pretending that I’m running a system diagnostics on the main computer. I don’t want anyone else looking into things.
+\doctor: L3XA, are you there…?
+alien: Dr. Daphnis… I can hear you…
+\doctor: Are you okay…?
+alien: ...
+\doctor: Did… did you cause this, L3XA?
+...
+Hold on, I’ll get some medication for you.
+L3XA’s vitals are going crazy.
+I know that, somehow, they’re the one behind this accident.
+The activity registered in the last minutes shows a sharp increase in brain activity.
+Maybe this is why… they’re being kept here.
+What do I do with this data? I’m supposed to report anything unusual…
+- REPORT
+	jump REPORT
+- DELETE
+	jump DELETE
+label REPORT
+I have a bad feeling about this, but I’ll send a brief report to the Commander. I don’t want to say anything definite, but it will look
+too suspicious if I keep quiet after today’s incident… I still have a job to do here.
+jump main
+label DELETE
+It’s gonna be hard to fake the report, but I have to erase the data showing L3XA’s outburst today.
+They can’t know for sure what caused this incident, and they will probably be suspicious, but I can't let this information fall into the wrong hands…
+I need to talk to L3XA as soon as I can.
+label main
+I spend more hours in the lab.
+The assistants have already cleaned up everything.
+I’m monitoring L3XA closely. They seem to have fallen into a deep sleep since the incident.
+At least they look more stable now…
+commander: “extremely dangerous…”
+I have to find out the answers by myself.
+I’ll wait until tonight.

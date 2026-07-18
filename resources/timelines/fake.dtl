@@ -1,13 +1,14 @@
 aaaaaaaaaaaaaaa
 join alien (sombra/feliz) center
 aaaaaaaaaaaaaaa [b]porra[/b]
+audio "res://arts/sfx/dragon-studio-car-crash-sound-effect-376874.mp3" [volume="-10.0"]
 label escolhas
 - cu
+	set {fdp} += 1.0
 	jump fake/cu
-	set {fdp} += 1.0
 - tomate cru
-	jump tomate cru
 	set {fdp} += 1.0
+	jump tomate cru
 label cu
 hahaha
 haaaaaaaahahaha

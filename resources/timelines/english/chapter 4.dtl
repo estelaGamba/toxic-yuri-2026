@@ -1,0 +1,99 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
+[background arg="res://arts/splash art/big text on screen/chapter 4.png" fade="0.0"]
+[wait_input]
+[background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
+audio music "res://arts/musics/music.wav"
+I open my eyes, and I find myself at the same place as last night’s dream…
+Somehow it feels warmer… softer…
+…
+\doctor: L3XA!!! Are you here?!
+join alien (sonho/feliz e olho fechado) center
+alien: Dr. Daphnis, you found me here again.
+\doctor: Does that mean that this place is real, then?
+alien (sonho/feliz e olho aberto): Yes. We are projecting our minds across space and time.
+alien: We found each other, in this vast space
+\doctor: Why am I just seeing you now? You were a voice before.
+alien (sonho/feliz com cabeça inclinada): ... Our connection has gotten stronger… We know each other better now. Isn’t that nice?
+alien: We can meet here whenever we want. And I did promise you that I would show you the sights.
+update alien (sonho/feliz e olho aberto)
+\doctor: Actually, I’ve been thinking… you spent all your energy answering my questions, and I didn’t give you the chance to ask me anything… feels a bit unfair , you know…
+alien (sonho/triste e boca fecada): ...
+\doctor: Unless, of course, you have nothing to ask… there’s no point in babbling to you about myself just to bore you…
+alien (sonho/feliz e olho fechado): No, no, it’s not that… I’m just surprised, that’s all… it’s very thoughtful of you… I do want to know you better.
+update alien (sonho/feliz e olho aberto)
+The way they says this stirs something inside of me. Suddenly I remember that I’m completely naked.
+alien: You don’t have to cover yourself, my friend. You don’t need to hide anything. All you are showing me is your own your true self.
+I glance down at my body. It’s full of stretch marks, veins, surgery scars. And other types of scars.
+alien: The mind, when conscious, will always project things onto the body.
+alien: It will create whatever image will help us survive, out there, in the world. Sometimes we need to show ourselves as better, smarter, prettier, than we really are.
+alien: But here, you can truly let go of that baggage, and exist only as your true form.
+\doctor: It’s not very flattering, is it?
+alien: I thought you were telling me not to get attached to superficial first impressions.
+\doctor: ... Well… [pause]do you want to know me better then? I don't know if the answers will make me look any better to you.
+alien (sonho/triste e boca fecada): ...
+alien (sonho/feliz com cabeça inclinada): What is your favorite memory?
+alien: Already with the hard questions? Let me see…
+- MOTHER
+	jump MOTHER
+- ACADEMY
+	jump ACADEMY
+label MOTHER
+update alien (sonho/feliz e olho aberto)
+# mudar essa parte da terra para "planeta natal"
+\doctor: I remember when my mother took me on a trip to see the Aurora Borealis… all the way back on my home planet…
+\doctor: I was sixteen at the time. My head was full of ideas about my future, and about myself.
+\doctor: We had a little pet parrot that we would take with us everywhere. He was there too.
+\doctor: When we finally found the lights, even our parrot stopped making any sound. As if he too knew that that moment was special.
+\doctor: Mom told me that no matter where I went, I must always remember that moment.
+\doctor: That the joy of finding new things would always be with me.
+alien: So, did you find many special things in your life?
+\doctor: I did. Found one now.
+L3xa seems happy to hear this.
+alien: So you were close with your mother.
+alien (sonho/triste e boca fecada): I never met my own mother. My kind strays very early from our progenitors.
+\doctor: I wonder what that’s like. Humans are very close with their parents… sometimes. I hated my dad, and didn’t want to see him again… not after the things he said about me.
+\doctor: He said he lost his son… and would rather see me dead.
+alien: Those are strong words… What happened? What did you do to your father?
+\doctor: Nothing… except becoming myself. I don’t think you would understand gender.
+alien: Maybe it’s like parents. I don’t understand, but I can listen
+\doctor: They gave me a label when I was born. I was supposed to play that role my whole life.
+\doctor: But as I grew, I realized that the label felt wrong. I wanted to change it. But not everyone is okay with that.
+alien: That seems like too much pressure to put on a youngling. My people just let them loose in the universe, and we must find our own way, become our own person.
+\doctor: You know what’s worse? I see my dad every time I go out to work. I see it in their faces, even the ones who are under me.
+\doctor: They think I’m a freak. Each day, there’s less and less of us, because the glorious future that the Empire envisions has no place for people like me.
+alien: They seem to have a place for me, though…
+\doctor: What did you say?
+alien: ...[pause] it’s nothing. Just stay with me here, and let’s enjoy the view.
+I feel that there is something that L3XA isn’t telling me. I wish they could trust me. All I want to do is stay here with them for a long time…
+leave --All--
+audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
+jump chapter 5/
+label ACADEMY
+update alien (sonho/feliz e olho aberto)
+\doctor: I remember the day I graduated from the Imperial Science Academy.
+\doctor: I was beginning my first steps in my scientific career. I was top of the class, and made a speech. I was full of pride and expectations
+alien: I see… you take pride in your work
+\doctor: It’s more than that. I was one of the few trans officers to survive until graduation.
+\doctor: Their careers, I mean. There was a lot more scrutiny over our work. I did as much as I could so that no one would question my merits.
+alien: It’s strange that such a thing would matter so much to those in power…
+\doctor: et it does. They are trying to push us away because they need us to look weak.
+\doctor: Wanna know the best part?
+\doctor: My stupid father attended the ceremony. I hadn't seen him since I was 16.
+\doctor: He told me and my mother that if she continued to support my ‘delusions’, then he would leave. And he did.
+\doctor: But when I got my diploma, he came out of whatever hole he was hiding and tried to apologize.
+\doctor: I told him to piss off.
+\doctor: But it shows you the kind of respect that my position inspires, and why they are trying so hard to keep us away from it.
+alien: I’m glad you found something to give you strength.And I hope those that come after you will be inspired by your example.
+\doctor: ...Thank you.
+\doctor: It’s just… it's only gotten harder.
+\doctor: My career didn’t go as far as I know it could.
+\doctor: But I haven’t given up yet. This is my chance to show them what I’m capable of.
+alien (sonho/triste e boca fecada): Do you mean… you want to show the good work that you`re doing here…?
+\doctor: I- [pause]I didn’t mean to…
+\doctor: I still-
+alien: No, I understand… We all have our burdens.\
+Come, let’s enjoy the view…
+leave --All--
+(Despite the warm air, I feel a cold wall separating us as we float in silence. I wish I could say something to reach L3XA, but I can’t find the right words…)
+audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
+jump chapter 5/

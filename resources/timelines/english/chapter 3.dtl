@@ -1,3 +1,4 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 3.png" fade="0.0"]
 [wait_input]
 [background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
@@ -39,15 +40,14 @@ alien: Are you listening to me right now? I know you are, you are the only perso
 I continue silent, trying not to show any disturbance on my face to any onlookers.
 <Empty Text Event>
 alien: You were more open to conversation when we first met. But I guess I spooked you.
-\
 Is L3XA really referring to last night’s… dream? What was that all about?
 alien: ...I guess that you don’t know that you can talk to me like I do. If you form your thoughts in the shape of words and send them to me, I will pick up on them.
 I decide to venture a response.
 label main
+[background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
 \doctor: ...can you hear me…?
+join alien (sombra/neutra de olho aberto) center
 alien: Yes, I can hear you. It’s been so long since I heard someone talking to me like this.
-alien: <Empty Text Event>
-alien: <Empty Text Event>
 \doctor: This is very new to me… can we talk? I have some questions.
 alien: Go ahead. Ask me anything.
 \doctor: Okay so… how do you do this? The telepathy, I mean.
@@ -56,8 +56,7 @@ alien: However, in this state, I can’t hold our connection for very long.
 alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.
 <Empty Text Event>
 <Empty Text Event>
-\doctor: I think we should start with a proper introduction.\
-
+\doctor: I think we should start with a proper introduction.
 \doctor: Hello, I’m Dr. Daphnis. I’m here to help you.
 alien: Help me…?
 \doctor: Yes, I’m the Chief Medical Officer, and I’m here to make sure you get better.
@@ -125,7 +124,7 @@ Their situation is very delicate… If I make a mistake now, they may suffer the
 This is… too much! The first time I ever talked with someone using telepathy! To think that it was even possible!
 I’ll have to keep this under wraps for now. Cmd. Flagg can’t know about any of this.
 I know full well that what I'm doing is treason. But I need to learn more before I can talk to anyone about this.
-captain: “Don’t take your eyes off it for a second.”
+commander: “Don’t take your eyes off it for a second.”
 Is what he said…
 I can’t trust anyone just now…
 I need to think…
@@ -133,3 +132,4 @@ I need to think…
 Another long shift has come to an end.
 I head to my quarters, and I’m ready for some night’s sleep.
 they did say we would meet again…
+jump chapter 4/

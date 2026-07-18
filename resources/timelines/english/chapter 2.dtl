@@ -1,7 +1,9 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 2.png" fade="0.0"]
 [wait_input]
 [background arg="#000000ff" fade="0.0"]
 After a long shift at the lab, and having made many visits to the bridge to report L3XA’s progress, I finally got a few hours to sleep.
+audio music "res://arts/musics/music.wav" [fade="1.0" volume="-0.6000000000000001" loop="true"]
 [background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
 In a dreamy state, I feel myself floating away in an infinitely expanding open space.
 I am surrounded by stars, galaxies, and everything is silent around me. I see colors that I’ve never seen before. My body is naked, and the air is warm.
@@ -34,7 +36,9 @@ jump perguntas
 label WHERE ARE WE?
 \doctor: Where are we supposed to be?
 stranger: In a spot somewhere in the universe. I don’t know exactly. But it has so many different things to see.
+audio music -
 \doctor: But how did you end up here, if you say you’re not dreaming?
+audio music "res://arts/sfx/chapters.wav" [loop="false"]
 stranger: I found the path to this place one day, when I was at the worst moment of my life. I have come here ever since. To stay… and look.
 jump perguntas
 label WHY CAN”T I SEE YOU?
@@ -43,9 +47,9 @@ stranger: I don’t know. I never met anyone here before. Maybe you’re just no
 \doctor: Okay, I’ll try…
 \doctor: …
 \doctor: Okay, this is hopeless. I can’t see you. I thought you could control things in dreams.
-\doctor: Wait, does that mean… you can see me?
 I forgot that I’m naked right now.
 stranger: Don’t be shy! You look pretty!
+\doctor: Wait, does that mean… you can see me?
 \doctor: “I- uh, would like you to look away, or something…”
 Promise I’m not looking…
 This is a very embarrassing dream
@@ -76,4 +80,5 @@ stranger: I hope you end up here again, then. So I can show you everything I kno
 label return 2
 [background arg="#000000ff" fade="0.0"]
 My mind becomes blank. I wake with a start. The hairs on my skin are all raised. My heart is beating faster. I feel energized after that strange dream.
+audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 jump chapter 3/

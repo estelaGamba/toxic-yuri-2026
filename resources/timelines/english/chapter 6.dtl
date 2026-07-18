@@ -1,0 +1,5 @@
+audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
+[background arg="res://arts/splash art/big text on screen/chapter 6.png" fade="0.0"]
+[wait_input]
+audio music "res://arts/musics/music.wav"
+[background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
