@@ -29,6 +29,7 @@ alien: They take me to Flagg.
 - IT DOESN'T MATTER
 	jump IT DOESN'T MATTER
 - I NEED TO KNOW
+	set {fdp} += 1.0
 	jump I NEED TO KNOW
 label IT DOESN'T MATTER
 \doctor: I just need to know if you're okay. How are you feeling?
@@ -58,7 +59,10 @@ L3XA pulls me towards them, embracing me. My body feels their warmth in the mids
 I need them too, at this moment.
 I want to be with them forever…
 leave --All--
-jump chapter 7/
+if {fdp} >= 3.0:
+	jump chapter 7 pt2/
+else:
+	jump chapter 7 pt1/
 label I NEED TO KNOW
 \doctor: You have to pull yourself together and tell me what’s going on, L3XA.
 \doctor: I can’t help you if you don’t speak
@@ -85,4 +89,7 @@ I need to say something to L3XA
 alien: You promise you won’t leave…
 \doctor: I promise, L3XA
 leave --All--
-jump chapter 7/
+if {fdp} >= 3.0:
+	jump chapter 7 pt2/
+else:
+	jump chapter 7 pt1/

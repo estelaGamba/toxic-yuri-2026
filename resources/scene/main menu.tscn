@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://duopsghddy3l6" path="res://resources/scripts/main_menu.gd" id="1_n1bfg"]
 [ext_resource type="Theme" uid="uid://cvd64ay2px41j" path="res://arts/menu/main menu botons.tres" id="2_aoh5q"]
+[ext_resource type="Texture2D" uid="uid://d0mkkn0dky1d8" path="res://arts/splash art/backgrounds/capa_do_jogo.png" id="2_qtcue"]
 [ext_resource type="FontFile" uid="uid://ckegtts4wqo64" path="res://arts/fonts/RubikMonoOne-Regular.ttf" id="3_aoh5q"]
 [ext_resource type="AudioStream" uid="uid://cyr38sb70tpf0" path="res://arts/musics/Something that can be used somewhere.wav" id="4_yjhrv"]
 [ext_resource type="PackedScene" uid="uid://bonnt7io21dd7" path="res://resources/scene/settings.tscn" id="5_gnmhi"]
@@ -16,13 +17,14 @@ grow_vertical = 2
 script = ExtResource("1_n1bfg")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=317965950]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_bottom = 94.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_qtcue")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=34813483]
 layout_mode = 1
@@ -33,10 +35,11 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 25
 theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
 
 [node name="main bottons" type="VBoxContainer" parent="MarginContainer" unique_id=924404606]
 layout_mode = 2
-size_flags_horizontal = 0
+size_flags_horizontal = 8
 size_flags_vertical = 4
 theme_override_constants/separation = 26
 
@@ -52,6 +55,7 @@ theme = ExtResource("2_aoh5q")
 text = "New Game"
 
 [node name="endings" type="Button" parent="MarginContainer/main bottons" unique_id=2066499064]
+visible = false
 layout_mode = 2
 theme = ExtResource("2_aoh5q")
 text = "Endings"
@@ -67,6 +71,7 @@ theme = ExtResource("2_aoh5q")
 text = "Exit"
 
 [node name="Label" type="Label" parent="MarginContainer" unique_id=967622323]
+visible = false
 layout_mode = 2
 size_flags_vertical = 0
 theme_override_fonts/font = ExtResource("3_aoh5q")

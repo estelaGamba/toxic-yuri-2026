@@ -41,9 +41,11 @@ directories/dtl_directory={
 "chapter 4": "res://resources/timelines/english/chapter 4.dtl",
 "chapter 5": "res://resources/timelines/english/chapter 5.dtl",
 "chapter 6": "res://resources/timelines/english/chapter 6.dtl",
-"chapter 7": "res://resources/timelines/english/chapter 7.dtl",
+"chapter 7 pt1": "res://resources/timelines/english/chapter 7 pt1.dtl",
+"chapter 7 pt2": "res://resources/timelines/english/chapter 7 pt2.dtl",
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
 "fake": "res://resources/timelines/fake.dtl",
+"finais bons": "res://resources/timelines/english/finais bons.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"
 }
 layout/style_directory={
@@ -89,6 +91,7 @@ audio/channel_defaults={
 }
 variables={
 "fdp": 0.0,
+"lexa_fdp": 0.0,
 "perguntas_1": 0.0
 }
 history/simple_history_enabled=true

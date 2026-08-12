@@ -21,6 +21,7 @@ alien: So, you recognize me. I can feel your attention turning to me. Only I can
 - RESPOND
 	jump RESPOND
 - PRETEND TO IGNORE
+	set {fdp} += 1.0
 	jump NOT LISTEN
 label RESPOND
 \doctor: Hey, excuse me?
@@ -38,7 +39,6 @@ label NOT LISTEN
 After a confused pause, I decide to continue walking as if nothing changed. I don’t know what’s happening right now, and I want to know more before I commit to a reaction.
 alien: Are you listening to me right now? I know you are, you are the only person that can hear me.
 I continue silent, trying not to show any disturbance on my face to any onlookers.
-<Empty Text Event>
 alien: You were more open to conversation when we first met. But I guess I spooked you.
 Is L3XA really referring to last night’s… dream? What was that all about?
 alien: ...I guess that you don’t know that you can talk to me like I do. If you form your thoughts in the shape of words and send them to me, I will pick up on them.
@@ -46,7 +46,7 @@ I decide to venture a response.
 label main
 [background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
 \doctor: ...can you hear me…?
-join alien (sombra/neutra de olho aberto) center
+join alien (teste/New portrait) center
 alien: Yes, I can hear you. It’s been so long since I heard someone talking to me like this.
 \doctor: This is very new to me… can we talk? I have some questions.
 alien: Go ahead. Ask me anything.
@@ -54,8 +54,6 @@ alien: Go ahead. Ask me anything.
 alien: It’s how my species communicates.
 alien: However, in this state, I can’t hold our connection for very long.
 alien: I would like to talk to you all day, but for now we only have some time before I slip into unconsciousness again.
-<Empty Text Event>
-<Empty Text Event>
 \doctor: I think we should start with a proper introduction.
 \doctor: Hello, I’m Dr. Daphnis. I’m here to help you.
 alien: Help me…?

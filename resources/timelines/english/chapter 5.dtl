@@ -55,6 +55,7 @@ What do I do with this data? I’m supposed to report anything unusual…
 - REPORT
 	jump REPORT
 - DELETE
+	set {fdp} += 1.0
 	jump DELETE
 label REPORT
 I have a bad feeling about this, but I’ll send a brief report to the Commander. I don’t want to say anything definite, but it will look

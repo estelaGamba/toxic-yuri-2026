@@ -36,6 +36,7 @@ alien: Already with the hard questions? Let me see…
 - MOTHER
 	jump MOTHER
 - ACADEMY
+	set {fdp} += 1.0
 	jump ACADEMY
 label MOTHER
 update alien (sonho/feliz e olho aberto)

@@ -1,0 +1,11 @@
+# bad doctor
+audio "res://arts/sfx/final chapter.wav" [volume="-5.0"]
+[background arg="res://arts/splash art/big text on screen/chapter 7 ver 1.png" fade="0.0"]
+[wait_input]
+I wake up.
+My head is pounding.
+But I know what I must do now.
+I can hear her coming closer.
+But even she can’t stop me…
+[background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.0"]
+<Empty Text Event>

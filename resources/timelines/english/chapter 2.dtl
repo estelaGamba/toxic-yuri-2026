@@ -65,6 +65,7 @@ stranger: Is this place not beautiful?
 - YES
 	jump YES
 - NO
+	set {fdp} += 1.0
 	jump NO
 label YES
 \doctor: ... I guess I was being too serious back there.

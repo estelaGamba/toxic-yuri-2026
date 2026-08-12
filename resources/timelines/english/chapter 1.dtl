@@ -27,10 +27,11 @@ I had to sit in a corner inside a noisy, stinky warehouse of fish containers. It
 \doctor: Oh no, sir. There was no issue at all.
 \doctor: I hope to be of service as Dr. Pulaski’s Replacement, given the… circumstances.
 Did you know Pulaski, Dr. Daphnis?
-- SHE WAS A GOOD SCIENTIST
-	jump chapter 1/A SHE WAS A GOOD SCIENTIST
 - SHE WAS A GOOD FRIEND
 	jump chapter 1/SHE WAS A GOOD FRIEND
+- SHE WAS A GOOD SCIENTIST
+	set {fdp} += 1.0
+	jump chapter 1/A SHE WAS A GOOD SCIENTIST
 label SHE WAS A GOOD FRIEND
 \doctor: We met at the Imperial Academy. We got along well. She was not afraid of following her ambitions, and she helped me a lot in my studies.
 \doctor: Though we haven’t been much in contact in the last 10 years, I always thought of her as a good friend of mine.

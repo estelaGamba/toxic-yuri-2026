@@ -3,7 +3,7 @@
 [ext_resource type="FontFile" uid="uid://2iji6t6qhr7g" path="res://arts/fonts/MartianMono-VariableFont_wdth,wght.ttf" id="1_7advt"]
 [ext_resource type="Script" uid="uid://bj78kbtrvnwxg" path="res://resources/scripts/credits.gd" id="1_oqtkf"]
 [ext_resource type="FontFile" uid="uid://ckegtts4wqo64" path="res://arts/fonts/RubikMonoOne-Regular.ttf" id="2_oqtkf"]
-[ext_resource type="AudioStream" uid="uid://c06fxnusv6jej" path="res://arts/musics/An Ending.wav" id="4_1gjkt"]
+[ext_resource type="AudioStream" uid="uid://c06fxnusv6jej" path="res://arts/musics/see you again someday.wav" id="4_1gjkt"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xk50k"]
 bg_color = Color(0, 0, 0, 1)
