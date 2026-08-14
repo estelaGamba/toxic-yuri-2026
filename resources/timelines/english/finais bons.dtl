@@ -1,6 +1,79 @@
 label be gay do crime
 leave --All--
 [background arg="#000000ff" fade="0.0"]
+I explode the ship.
+I’m floating in a mess of rubble.
+I used too much energy.
+…
+join doctor center
+\doctor: Hey, you’re awake.
+alien: … you... came back…
+\doctor: Of course I came back!
+alien: I thought you would be having second thoughts about what I’ve done for all those people.
+\doctor: My choice was made when I fell in love with you…[br]You were right. They made their choice.
+\doctor: The Empire is evil and the only way to change it is to fight it.
+\doctor: But whatever happens, I will always want to be by your side.
+alien: I want that too…
+alien: So, Where are we going?
+\doctor: Somewhere the Empire won’t find us…
+\doctor: They really did themselves dirty when they stopped funding planetary research. There are lots of blind spots across the galaxy where we can disappear.
+\doctor: I know of a place I wanted to study, but the Imperial Academy never let me…
+alien: You really love your job, don’t you?
+\doctor: I love seeking new things to learn. You, of all people, should understand that.
+alien: I do.
+\doctor: Speaking of that, we never got properly introduced to each other.
+Lilith: I'm Lilith Daphnis.
+Lilith: And you?
+Pallene: You can call me Pallene
+Lilith: Nice to meet you Pallene.
+Lilith: Now, let's get out of here.
+leave --All--
+[wait time="0.5"]
+audio music "res://arts/musics/be gay do crime.mp3" [fade="0.5" loop="false"]
+[background arg="res://arts/splash art/ending/see_you_someday_somewhere.png" fade="0.0"]
+ENDIND 2 of 4 [br]Be gay… do crimes… seek new life and new civilizations.
+[wait_input]
+thanks for playing
+[signal arg="cabou"]
 label see you again some day
 leave --All--
 [background arg="#000000ff" fade="0.0"]
+I let go of the ship’s crew.
+I feel weaker.
+alien: We have... about half an hour until they start waking up again.
+Dr. Daphnis is running around the lab, tapping computer monitors.
+I think I'll pass out...
+[wait time="0.5"]
+[background arg="res://arts/splash art/backgrounds/estacionamento.png" fade="0.0"]
+I find myself in a different room. Is this an escape shuttle bay?
+Dr. Daphnis is hovering over me.
+join doctor center
+\doctor: Here, you’re awake. We don’t have much time.
+\doctor: I've typed in coordinates for a place far away from here.
+\doctor: They won’t recognize the ship’s insignia there.
+\doctor: Lay low for a while, and you should be safe.
+alien: Where am I going?
+\doctor: To a place that I always wanted to visit, but it wasn’t interesting enough for the Imperial Academy to even consider funding a trip there. 
+\doctor: The Empire probably doesn’t know it exists.
+alien: And what about you?
+\doctor: I’m going to stall them.
+\doctor: There will be questioning, and you’ll be far enough from here when they are done.
+alien: Won’t they punish you for failing your mission?
+\doctor: Yes, and they will probably jail me for gross negligence.
+\doctor: But I will come out some day, and when I do, I’ll come and find you.
+alien: You’re doing too much for me![br]I can’t accept this!
+\doctor: I made my choice.
+\doctor: Just promise you’ll be there for me to find you, okay?
+alien: You're gonna need my name, for that.
+"Pallene ": Look for Pallene, when you come out.
+\doctor: I will, Pallene.
+Lilith: And my name is Lilith, not Doctor!
+"Pallene ": 'll be waiting for you, Lilith...
+leave --All--
+[wait time="0.5"]
+[background arg="res://arts/splash art/ending/be_gay_do_crimes.png" fade="0.0"]
+audio music "res://arts/musics/see you again someday.wav" [fade="0.5" loop="false"]
+ENDIND 1 of 4 [br]See you… Someday, somewhere!
+[wait_input]
+thanks for playing
+[signal arg="cabou"]

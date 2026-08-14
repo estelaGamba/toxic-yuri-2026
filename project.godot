@@ -26,6 +26,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
+"Lilith": "res://arts/characters/doctor/Lilith.dch",
+"Pallene ": "res://arts/characters/alien/Pallene .dch",
 "alien": "res://arts/characters/alien/alien.dch",
 "captain": "res://arts/characters/capitain/captain.dch",
 "commander": "res://arts/characters/commander/commander.dch",
