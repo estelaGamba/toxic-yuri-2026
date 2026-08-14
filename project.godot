@@ -48,6 +48,7 @@ directories/dtl_directory={
 "dream 1": "res://resources/timelines/english/dream 1.dtl",
 "fake": "res://resources/timelines/fake.dtl",
 "finais bons": "res://resources/timelines/english/finais bons.dtl",
+"finais ruins": "res://resources/timelines/english/finais ruins.dtl",
 "intro": "res://resources/timelines/english/intro.dtl"
 }
 layout/style_directory={

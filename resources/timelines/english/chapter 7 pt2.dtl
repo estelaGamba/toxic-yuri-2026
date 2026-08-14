@@ -8,4 +8,121 @@ But I know what I must do now.
 I can hear her coming closer.
 But even she can’t stop me…
 [background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.0"]
-<Empty Text Event>
+join doctor center
+\doctor: L3XA… what are you doing? 
+\doctor: Did you ask me to stay with you in the astral plane so you could prevent me from waking up?
+\doctor: The entire ship is asleep...
+\doctor: Is this part of your plan?
+alien: Yes. I’m now absorbing their collective energy.
+alien: When I’m done, I’ll be strong enough to create an explosion that will allow me to escape this cage.
+\doctor: You’re planning on killing everyone, then?
+alien: I am, yes. That’s why I released you from the coma. 
+alien: You can escape, Dr. Daphnis, and stay out of this.
+alien: I didn’t know you had it in you to do this. [br]Seems that it goes against your nature.
+- this is my nature
+	jump It is in my nature.
+- I had no choice.
+	jump I had no choice.
+label It is in my nature.
+alien: You can feel it too, can’t you? The hatred that I feel, coursing through my veins.
+alien: It’s one thing that we have in common.
+\doctor: …
+alien: What are you looking at me for?[br]I know how these people treat you!
+alien: I know how you feel!
+\doctor: … I guess that until this moment, I thought that I was hiding it well.
+\doctor: But I can’t lie, not to you. I hate them. All of them.
+\doctor: What they’ve done to you… it’s just the crust. There’s much more dirt underneath.
+\doctor: Honestly, considering how I helped them torture you, I’m surprised that you’re not holding me hostage right now.
+jump main 1
+label I had no choice.
+alien: They were going to take everything away from me.
+alien: My body… picked apart.
+alien: My powers… used for evil.
+alien: These people must die, or I’ll never have peace again.
+\doctor: It’s a natural thing for any species. You are in your right to do that, after what they’ve done to you.
+\doctor: But you’re not really cut out for this. Calm down and we can figure a better way out of this.
+alien: You can’t understand what I’m going through. They all used me, and will use again, if I don’t stop them.
+alien: Besides, what CAN you do? You have no power against the Empire.
+\doctor: That’s not true. I understand you.
+\doctor: You and I have both been treated like crap by the Empire, and used for all they could take from us.
+\doctor: I hate them more than you know. I could stand by and let you do it, and I could care less.
+label main 1
+\doctor: I am on your side. Let me handle this.
+- I don't trust you.
+	set {lexa_fdp} += 1.0
+	jump I don't trust you.
+- I want to trust you.
+	jump I want to trust you Doctor
+label I don't trust you.
+alien: You're like the rest of them…
+alien: But you stayed… and you listened.
+alien: I’m hopeless, I'm nothing, and I need someone to get attached to… to protect me…
+alien: Like Dr. Pulaski
+\doctor: You’re not nothing. They made you feel like that.
+\doctor: Pulaski was a coward.
+\doctor: They took control away from you. And it’s your time to take control back.
+jump main 2
+label I want to trust you Doctor
+alien: But I’m… angry… And I’m scared…
+alien: I just don’t want to get hurt again…
+\doctor: But you have to trust me. You can’t survive out there alone
+\doctor: The Empire will not rest until they’ve avenged what you’ve done to their ship.
+\doctor: Let them live, and I can take you out of here before they wake up.
+\doctor: I’ll stall them, and make it seem like it was all an accident that let you escape.
+label main 2
+\doctor: So, what do you say?
+- this for yourself?
+	set {lexa_fdp} += 1.0
+	jump this for yourself?
+- Is this for me?
+	jump Is this for me?
+label this for yourself?
+alien: Why are you saying this to me now? You only care about yourself.
+alien: I don't need your opinion. I know what I need to do.
+\doctor: You're starting to realize now, the way thing are in life.
+\doctor: People like us... we don't have to rely on others.
+We must build our own path.
+jump 
+label Is this for me?
+alien: It’s my problem what happens to me after I’m done.
+alien: I’ve made my peace with it. Why do you care so much about me?
+\doctor: Because you are a weak little thing, and I hate the way the Empire is treating you.
+\doctor: They are cowards who want to take what’s yours without a fight.
+\doctor: Besides, I.. care about you.
+alien: You do?
+alien: Sometimes you remind me of Dr. Pulaski.
+alien: She would give me one hand to hold, and stab me with the other.
+\doctor: Pulaski didn't understand you the way I do. I find you fascinating.
+\doctor: I guess I couldn’t help but admire the stars for being pretty, after all.
+\doctor: You have to make a choice, now. No matter what I say, it's up to one thing.
+\doctor: Do you trust me?Or do you trust yourself?
+if {lexa_fdp} >= 1.0:
+	jump Now I am become Death
+else:
+	jump I have no mouth, and I must scream
+label Now I am become Death
+alien: I couldn’t help myself from falling in love again…
+alien: I go with my own consciousness.  They all need to die
+\doctor: It's what I thought you would say...
+alien: It's what I thought you would say...
+alien: It 's your crew.
+\doctor: They made a choice. These are the consequences.
+\doctor: I have no pity for those who chase power without the means to seize it.
+\doctor: You are a survivor, L3XA. Survive.
+alien: Thank you, Doctor.
+alien: It means a lot to me that you don’t think less of me for it.
+alien: Now go. I will finish soon.
+\doctor: Goodbye, L3XA.
+\doctor: Goodbye, Doctor.
+jump finais ruins/i became deah
+label I have no mouth, and I must scream
+alien: I care about you Doctor.
+alien: You know so much more than I do...
+alien: My mind is in shambles. I can't think
+alien: Even though everything screams for me to stay away from you, I can’t stop attaching myself once again.
+\doctor: You are being a fool.
+\doctor: But so am I. Trust me and I’ll fix this for you.
+- I trust you.
+- You really care about me?
+\doctor: I do… against my better judgement. So, what do you say?
+jump finais ruins/ I have no mouth, and I must scream

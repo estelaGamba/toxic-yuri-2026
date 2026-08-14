@@ -1,0 +1,16 @@
+label i became deah
+leave --All--
+[background arg="#000000ff" fade="0.0"]
+label  I have no mouth, and I must scream
+I explode the ship.
+I’m floating in a mess of rubble.
+They are all dead.
+But I’m free.
+audio music "res://arts/musics/GraveYard.mp3" [fade="0.5" loop="false"]
+[background arg="res://arts/splash art/ending/violent_x_violent.png" fade="0.5"]
+ENDIND 4 of 4 [br]Now I am become Death
+[wait_input]
+thanks for playing
+[signal arg="cabou"]
+leave --All--
+[background arg="#000000ff" fade="0.0"]
