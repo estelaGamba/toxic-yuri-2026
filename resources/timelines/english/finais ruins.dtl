@@ -1,7 +1,7 @@
+jump I have no mouth, and I must scream
 label i became deah
 leave --All--
 [background arg="#000000ff" fade="0.0"]
-label  I have no mouth, and I must scream
 I explode the ship.
 I’m floating in a mess of rubble.
 They are all dead.
@@ -12,5 +12,42 @@ ENDIND 4 of 4 [br]Now I am become Death
 [wait_input]
 thanks for playing
 [signal arg="cabou"]
+label I have no mouth, and I must scream
 leave --All--
 [background arg="#000000ff" fade="0.0"]
+I let go of the ship’s crew.
+I feel weaker.
+...
+I’m feeling myself falling into a sedated state again.
+When I look at Dr. Daphnis. she has her eyes fixed coldly on me.
+The Commander is standing next to her.
+[background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.6"]
+join doctor left
+join commander (brabo) right
+\doctor: So this is what went wrong sir. The specimen had a sudden surge of energy and attacked everyone in the ship.
+\doctor: But I have already neutralized it. It won't break containment again.
+commander: Understood,Doctor.
+commander: Update us on her status if anything changes again.
+commander: You really did a better job than Dr. Pulaski. Maybe you’ll even live until the end of this trip.
+\doctor: Just following orders, sir.
+leave commander
+update doctor center [move_time="0.5"]
+In my confused state, I hear Dr. Daphnis speaking in my mind.
+\doctor: You should have done it, you know… I would respect you for that.
+\doctor: But as we stand you’re just a weak little thing, and it’s not worth the trouble.
+alien: You promised…
+alien: I should never have trusted anyone again.
+\doctor: No, you shouldn’t.
+\doctor: That’s how I live MY life. It got me a career, hard as it is to ascend in this shitty system.
+\doctor: And I'm not going to risk that for you…
+\doctor: You don’t have what it takes. You should have killed me when you had the chance.
+\doctor: Go back to sleep, L3XA.
+leave --All--
+[background arg="#000000ff" fade="1.0" transition="Push Down"]
+[wait time="2.0"]
+audio music "res://arts/musics/Hevens requiem.wav" [loop="false"]
+[background arg="res://arts/splash art/ending/i_have_no_mouth.png" fade="0.5"]
+ENDIND 3 of 4 [br]I have no mouth, and I must scream
+[wait_input]
+thanks for playing
+[signal arg="cabou"]
