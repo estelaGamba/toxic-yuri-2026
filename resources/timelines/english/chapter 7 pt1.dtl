@@ -2,6 +2,7 @@
 audio "res://arts/sfx/final chapter.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 7 ver 1.png" fade="0.0"]
 [wait_input]
+audio music "res://arts/musics/Eclipse Loop.wav" [fade="0.5" volume="-0.6000000000000001"]
 [background arg="#000000ff" fade="0.0"]
 I wake up.
 My head is pounding.
@@ -23,11 +24,11 @@ alien: That’s why I released you from the coma.
 alien: You can escape, Dr. Daphnis, and stay out of this.
 \doctor: You don’t want to do this. 
 \doctor: It’s not in your nature to be violent.
+- I had no choice.
+	jump  I had no choice.
 - It is in my nature.
 	set {lexa_fdp} += 1.0
 	jump It is in my nature.
-- I had no choice.
-	jump  I had no choice.
 label It is in my nature.
 alien: As much as is in yours.
 alien: Don’t deny me the right to fight for my own survival.
@@ -46,11 +47,11 @@ label main 1
 \doctor: There must be another way.
 \doctor: Let me help you.
 \doctor: There's no need to act with hatred!
+- You can’t help me
+	jump You can’t help me, Doctor.
 - HATE?
 	set {lexa_fdp} += 1.0
 	jump HATE?
-- You can’t help me
-	jump You can’t help me, Doctor.
 label HATE?
 alien: Hate doesn’t begin to describe the way I feel.
 alien: They took everything away from me, and they want more!
@@ -86,11 +87,11 @@ alien: I just don’t want to get hurt again…
 label main 2
 \doctor: Think about it!
 \doctor: This situation will end badly for everyone!
+- You care about me?
+	jump You care about me?
 - You only care about them
 	set {lexa_fdp} += 1.0
 	jump You only care about them
-- You care about me?
-	jump You care about me?
 label You only care about them
 alien: You're only saying this because you care about your own people.
 alien: If you give people too many chances, they stomp on you.

@@ -1,6 +1,7 @@
 audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 3.png" fade="0.0"]
 [wait_input]
+audio music "res://arts/musics/Eclipse Loop.wav" [fade="0.6" volume="-0.6000000000000001"]
 [background arg="res://arts/splash art/backgrounds/laboratorio.png" fade="0.0"]
 I am back at the lab. I am more used to making the rounds, gathering reports from my assistants, and checking up on all the specimens in the inventory.
 Once again, I approach L3XA.
@@ -130,4 +131,5 @@ I need to think…
 Another long shift has come to an end.
 I head to my quarters, and I’m ready for some night’s sleep.
 they did say we would meet again…
+audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 jump chapter 4/

@@ -1,7 +1,7 @@
 audio "res://arts/sfx/chapters.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 6.png" fade="0.0"]
 [wait_input]
-audio music "res://arts/musics/music.wav"
+audio music "res://arts/musics/music.wav" [fade="0.5" volume="-0.6000000000000001"]
 [background arg="res://arts/splash art/backgrounds/galaxia.png" fade="0.0"]
 I arrive at our meeting place, but it feels different. Emptier. Colder.
 \doctor: L3XA? Are you there?
@@ -60,8 +60,10 @@ I need them too, at this moment.
 I want to be with them forever…
 leave --All--
 if {fdp} >= 3.0:
+	audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 	jump chapter 7 pt2/
 else:
+	audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 	jump chapter 7 pt1/
 label I NEED TO KNOW
 \doctor: You have to pull yourself together and tell me what’s going on, L3XA.
@@ -89,7 +91,9 @@ I need to say something to L3XA
 alien: You promise you won’t leave…
 \doctor: I promise, L3XA
 leave --All--
+audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 if {fdp} >= 3.0:
 	jump chapter 7 pt2/
 else:
+	audio music "res://arts/sfx/Dramatic_Vine_Instagram_Boom_-_Sound_Effect_HD.mp3" [volume="-80.0"]
 	jump chapter 7 pt1/

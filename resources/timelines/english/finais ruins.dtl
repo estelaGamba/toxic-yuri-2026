@@ -1,3 +1,4 @@
+audio music "res://arts/musics/Eclipse Loop.wav" [loop="true"]
 jump I have no mouth, and I must scream
 label i became deah
 leave --All--

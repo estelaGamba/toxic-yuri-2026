@@ -2,6 +2,8 @@
 audio "res://arts/sfx/final chapter.wav" [volume="-5.0"]
 [background arg="res://arts/splash art/big text on screen/chapter 7 ver 1.png" fade="0.0"]
 [wait_input]
+[background arg="#000000ff" fade="0.0"]
+audio music "res://arts/musics/Eclipse Loop.wav" [fade="0.5" volume="-0.6000000000000001"]
 I wake up.
 My head is pounding.
 But I know what I must do now.
@@ -19,10 +21,11 @@ alien: When I’m done, I’ll be strong enough to create an explosion that will
 alien: I am, yes. That’s why I released you from the coma. 
 alien: You can escape, Dr. Daphnis, and stay out of this.
 alien: I didn’t know you had it in you to do this. [br]Seems that it goes against your nature.
-- this is my nature
-	jump It is in my nature.
 - I had no choice.
 	jump I had no choice.
+- this is my nature
+	set {lexa_fdp} += 1.0
+	jump It is in my nature.
 label It is in my nature.
 alien: You can feel it too, can’t you? The hatred that I feel, coursing through my veins.
 alien: It’s one thing that we have in common.
@@ -48,11 +51,11 @@ alien: Besides, what CAN you do? You have no power against the Empire.
 \doctor: I hate them more than you know. I could stand by and let you do it, and I could care less.
 label main 1
 \doctor: I am on your side. Let me handle this.
+- I want to trust you.
+	jump I want to trust you Doctor
 - I don't trust you.
 	set {lexa_fdp} += 1.0
 	jump I don't trust you.
-- I want to trust you.
-	jump I want to trust you Doctor
 label I don't trust you.
 alien: You're like the rest of them…
 alien: But you stayed… and you listened.
@@ -71,18 +74,18 @@ alien: I just don’t want to get hurt again…
 \doctor: I’ll stall them, and make it seem like it was all an accident that let you escape.
 label main 2
 \doctor: So, what do you say?
+- Is this for me?
+	jump Is this for me?
 - this for yourself?
 	set {lexa_fdp} += 1.0
 	jump this for yourself?
-- Is this for me?
-	jump Is this for me?
 label this for yourself?
 alien: Why are you saying this to me now? You only care about yourself.
 alien: I don't need your opinion. I know what I need to do.
 \doctor: You're starting to realize now, the way thing are in life.
 \doctor: People like us... we don't have to rely on others.
-We must build our own path.
-jump 
+\doctor: We must build our own path.
+jump main 3
 label Is this for me?
 alien: It’s my problem what happens to me after I’m done.
 alien: I’ve made my peace with it. Why do you care so much about me?
@@ -94,9 +97,10 @@ alien: Sometimes you remind me of Dr. Pulaski.
 alien: She would give me one hand to hold, and stab me with the other.
 \doctor: Pulaski didn't understand you the way I do. I find you fascinating.
 \doctor: I guess I couldn’t help but admire the stars for being pretty, after all.
+label main 3
 \doctor: You have to make a choice, now. No matter what I say, it's up to one thing.
 \doctor: Do you trust me?Or do you trust yourself?
-if {lexa_fdp} >= 1.0:
+if {lexa_fdp} >= 2.0:
 	jump Now I am become Death
 else:
 	jump I have no mouth, and I must scream
