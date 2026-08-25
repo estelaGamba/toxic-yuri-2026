@@ -22,10 +22,10 @@ alien: I am, yes. That’s why I released you from the coma. 
 alien: You can escape, Dr. Daphnis, and stay out of this.
 alien: I didn’t know you had it in you to do this. [br]Seems that it goes against your nature.
 - I had no choice.
-	jump I had no choice.
+	jump chapter 7 pt2/I had no choice.
 - this is my nature
 	set {lexa_fdp} += 1.0
-	jump It is in my nature.
+	jump chapter 7 pt2/It is in my nature.
 label It is in my nature.
 update doctor (preocupada)
 alien: You can feel it too, can’t you? The hatred that I feel, coursing through my veins.
@@ -37,7 +37,7 @@ alien: I know how you feel!
 \doctor: But I can’t lie, not to you. I hate them. All of them.
 \doctor: What they’ve done to you… it’s just the crust. There’s much more dirt underneath.
 \doctor: Honestly, considering how I helped them torture you, I’m surprised that you’re not holding me hostage right now.
-jump main 1
+jump chapter 7 pt2/main 1
 label I had no choice.
 update doctor (preocupada)
 alien: They were going to take everything away from me.
@@ -54,10 +54,10 @@ alien: Besides, what CAN you do? You have no power against the Empire.
 label main 1
 \doctor: I am on your side. Let me handle this.
 - I want to trust you.
-	jump I want to trust you Doctor
+	jump chapter 7 pt2/I want to trust you Doctor
 - I don't trust you.
 	set {lexa_fdp} += 1.0
-	jump I don't trust you.
+	jump chapter 7 pt2/I don't trust you.
 label I don't trust you.
 alien: You're like the rest of them…
 alien: But you stayed… and you listened.
@@ -66,7 +66,7 @@ alien: Like Dr. Pulaski
 \doctor: You’re not nothing. They made you feel like that.
 \doctor: Pulaski was a coward.
 \doctor: They took control away from you. And it’s your time to take control back.
-jump main 2
+jump chapter 7 pt2/main 2
 label I want to trust you Doctor
 alien: But I’m… angry… And I’m scared…
 alien: I just don’t want to get hurt again…
@@ -77,17 +77,17 @@ alien: I just don’t want to get hurt again…
 label main 2
 \doctor: So, what do you say?
 - Is this for me?
-	jump Is this for me?
+	jump chapter 7 pt2/Is this for me?
 - this for yourself?
 	set {lexa_fdp} += 1.0
-	jump this for yourself?
+	jump chapter 7 pt2/this for yourself?
 label this for yourself?
 alien: Why are you saying this to me now? You only care about yourself.
 alien: I don't need your opinion. I know what I need to do.
 \doctor: You're starting to realize now, the way thing are in life.
 \doctor: People like us... we don't have to rely on others.
 \doctor: We must build our own path.
-jump main 3
+jump chapter 7 pt2/main 3
 label Is this for me?
 alien: It’s my problem what happens to me after I’m done.
 alien: I’ve made my peace with it. Why do you care so much about me?
@@ -103,9 +103,9 @@ label main 3
 \doctor: You have to make a choice, now. No matter what I say, it's up to one thing.
 \doctor: Do you trust me?Or do you trust yourself?
 if {lexa_fdp} >= 2.0:
-	jump Now I am become Death
+	jump chapter 7 pt2/Now I am become Death
 else:
-	jump I have no mouth, and I must scream
+	jump chapter 7 pt2/I have no mouth, and I must scream
 label Now I am become Death
 alien: I couldn’t help myself from falling in love again…
 alien: I go with my own consciousness.  They all need to die

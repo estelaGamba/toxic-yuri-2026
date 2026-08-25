@@ -25,17 +25,17 @@ alien: You can escape, Dr. Daphnis, and stay out of this.
 \doctor: You don’t want to do this. 
 \doctor (preocupada): It’s not in your nature to be violent.
 - I had no choice.
-	jump  I had no choice.
+	jump chapter 7 pt1/I had no choice.
 - It is in my nature.
 	set {lexa_fdp} += 1.0
-	jump It is in my nature.
+	jump chapter 7 pt1/It is in my nature.
 label It is in my nature.
 alien: As much as is in yours.
 alien: Don’t deny me the right to fight for my own survival.
 alien: I have chosen a life of peace, but I have my limits.
 \doctor: I'm not denying anything!
 \doctor: But please, take a moment to listen to me
-jump main 1
+jump chapter 7 pt1/main 1
 label I had no choice.
 alien: They were going to take everything away from me.
 alien: My body… picked apart.
@@ -48,10 +48,10 @@ label main 1
 \doctor: Let me help you.
 \doctor: There's no need to act with hatred!
 - You can’t help me
-	jump You can’t help me, Doctor.
+	jump chapter 7 pt1/You can’t help me, Doctor.
 - HATE?
 	set {lexa_fdp} += 1.0
-	jump HATE?
+	jump chapter 7 pt1/HATE?
 label HATE?
 alien: Hate doesn’t begin to describe the way I feel.
 alien: They took everything away from me, and they want more!
@@ -68,7 +68,7 @@ alien: I’m honoring them by letting you escape
 \doctor: They hate me!
 alien: Then why do you care if I kill them?!
 \doctor: Because I want to give people a chance!
-jump main 2
+jump chapter 7 pt1/main 2
 label You can’t help me, Doctor.
 alien: You can’t understand what I’m going through.
 alien: They all used me, and will use again, if I don’t stop them.
@@ -88,16 +88,16 @@ label main 2
 \doctor: Think about it!
 \doctor: This situation will end badly for everyone!
 - You care about me?
-	jump You care about me?
+	jump chapter 7 pt1/You care about me?
 - You only care about them
 	set {lexa_fdp} += 1.0
-	jump You only care about them
+	jump chapter 7 pt1/You only care about them
 label You only care about them
 alien: You're only saying this because you care about your own people.
 alien: If you give people too many chances, they stomp on you.
 alien: I’m finally making my peace with it now.
 \doctor: They have families, and they have someone that they love waiting for them!
-jump main 3
+jump chapter 7 pt1/main 3
 label You care about me?
 alien: It’s my problem what I feel after I’m done.
 alien: I’ve made my peace with it.
@@ -109,9 +109,9 @@ alien: Why do you care so much about my feelings?
 label main 3
 \doctor (preocupada): You have to make a choice. I don't think I have anything left to say to you. Please, Think about what I said.
 if {lexa_fdp} >= 2.0:
-	jump see you someday
+	jump chapter 7 pt1/see you someday
 else:
-	jump bee gay do crime
+	jump chapter 7 pt1/bee gay do crime
 label bee gay do crime
 alien: I have thought about it.
 alien: They made their choice. I made mine
