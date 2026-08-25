@@ -10,7 +10,7 @@ But I know what I must do now.
 I can hear her coming closer.
 But even she can’t stop me…
 [background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.0"]
-join doctor center
+join doctor (interrogativa enfase) center
 \doctor: L3XA… what are you doing? 
 \doctor: Did you ask me to stay with you in the astral plane so you could prevent me from waking up?
 \doctor: The entire ship is asleep...
@@ -27,6 +27,7 @@ alien: I didn’t know you had it in you to do this. [br]Seems that it goes agai
 	set {lexa_fdp} += 1.0
 	jump It is in my nature.
 label It is in my nature.
+update doctor (preocupada)
 alien: You can feel it too, can’t you? The hatred that I feel, coursing through my veins.
 alien: It’s one thing that we have in common.
 \doctor: …
@@ -38,6 +39,7 @@ alien: I know how you feel!
 \doctor: Honestly, considering how I helped them torture you, I’m surprised that you’re not holding me hostage right now.
 jump main 1
 label I had no choice.
+update doctor (preocupada)
 alien: They were going to take everything away from me.
 alien: My body… picked apart.
 alien: My powers… used for evil.
@@ -120,6 +122,7 @@ alien: Now go. I will finish soon.
 \doctor: Goodbye, Doctor.
 jump finais ruins/i became deah
 label I have no mouth, and I must scream
+update doctor (manipulativa)
 alien: I care about you Doctor.
 alien: You know so much more than I do...
 alien: My mind is in shambles. I can't think
@@ -128,5 +131,5 @@ alien: Even though everything screams for me to stay away from you, I can’t st
 \doctor: But so am I. Trust me and I’ll fix this for you.
 - I trust you.
 - You really care about me?
-\doctor: I do… against my better judgement. So, what do you say?
+\doctor (manipulativa enfase): I do… against my better judgement. So, what do you say?
 jump finais ruins/ I have no mouth, and I must scream

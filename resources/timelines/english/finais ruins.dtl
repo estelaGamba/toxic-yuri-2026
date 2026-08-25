@@ -23,7 +23,7 @@ I’m feeling myself falling into a sedated state again.
 When I look at Dr. Daphnis. she has her eyes fixed coldly on me.
 The Commander is standing next to her.
 [background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.6"]
-join doctor left
+join doctor (sentido) left
 join commander (brabo) right
 \doctor: So this is what went wrong sir. The specimen had a sudden surge of energy and attacked everyone in the ship.
 \doctor: But I have already neutralized it. It won't break containment again.
@@ -32,7 +32,7 @@ commander: Update us on her status if anything changes again.
 commander: You really did a better job than Dr. Pulaski. Maybe you’ll even live until the end of this trip.
 \doctor: Just following orders, sir.
 leave commander
-update doctor center [move_time="0.5"]
+update doctor (manipulativa enfase) center [move_time="0.5"]
 In my confused state, I hear Dr. Daphnis speaking in my mind.
 \doctor: You should have done it, you know… I would respect you for that.
 \doctor: But as we stand you’re just a weak little thing, and it’s not worth the trouble.

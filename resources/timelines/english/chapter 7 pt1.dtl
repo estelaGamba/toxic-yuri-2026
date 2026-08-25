@@ -10,7 +10,7 @@ But I know what I must do now.
 I can hear her coming closer.
 But even she can’t stop me…
 [background arg="res://arts/splash art/backgrounds/laboratorio_quebrado.png" fade="0.0"]
-join doctor center
+join doctor (aterrorizada) center
 \doctor: L3XA… what are you doing? 
 \doctor: We were together in the astral plane,  and then you locked me in there.
 \doctor: I couldn't wake up...
@@ -23,7 +23,7 @@ alien: I am, yes.
 alien: That’s why I released you from the coma.
 alien: You can escape, Dr. Daphnis, and stay out of this.
 \doctor: You don’t want to do this. 
-\doctor: It’s not in your nature to be violent.
+\doctor (preocupada): It’s not in your nature to be violent.
 - I had no choice.
 	jump  I had no choice.
 - It is in my nature.
@@ -44,7 +44,7 @@ alien: These people must die, or I’ll never have peace again.
 \doctor: I know that you suffered a lot.
 \doctor: They must have done horrible things to you.
 label main 1
-\doctor: There must be another way.
+\doctor (interrogativa enfase): There must be another way.
 \doctor: Let me help you.
 \doctor: There's no need to act with hatred!
 - You can’t help me
@@ -102,12 +102,12 @@ label You care about me?
 alien: It’s my problem what I feel after I’m done.
 alien: I’ve made my peace with it.
 alien: Why do you care so much about my feelings?
-\doctor: Because I love you!
+\doctor (se declarando): Because I love you!
 \doctor: You’re the first person that I ever met that made me feel complete.
 \doctor: I want you to be happy! And safe!
 \doctor: And I can’t let you go and ruin your life like this!
 label main 3
-\doctor: You have to make a choice. I don't think I have anything left to say to you. Please, Think about what I said.
+\doctor (preocupada): You have to make a choice. I don't think I have anything left to say to you. Please, Think about what I said.
 if {lexa_fdp} >= 2.0:
 	jump see you someday
 else:
@@ -119,12 +119,12 @@ alien: The Empire won’t change, even if I want it to.
 alien: I’m tired of running.
 \doctor: …I’m tired of running too.
 \doctor: The truth is, I don’t care about them.
-\doctor: I care about you!
+\doctor (se declarando): I care about you!
 \doctor: I want to be with you, even if they want us apart!
 alien: Then come with me.
 alien: We don’t have to care about them.
 alien: And we can be together.
-\doctor: I will come with you
+\doctor (se declarando enfase): I will come with you
 \doctor: I can’t stop you from making your choice.
 \doctor: But I’ll be with you no matter what!
 alien: I love you…
@@ -132,6 +132,7 @@ alien: I love you…
 jump finais bons/be gay do crime
 label see you someday
 alien: I have thought about it.
+update doctor (se declarando)
 alien: I love you too, Dr. Daphnis.
 alien: You have a beautiful mind.
 alien: I would hate to make you miserable.

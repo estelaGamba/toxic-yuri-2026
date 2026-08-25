@@ -5,10 +5,10 @@ I explode the ship.
 I’m floating in a mess of rubble.
 I used too much energy.
 …
-join doctor center
+join doctor (preocupada) center
 \doctor: Hey, you’re awake.
 alien: … you... came back…
-\doctor: Of course I came back!
+\doctor (se declarando enfase): Of course I came back!
 alien: I thought you would be having second thoughts about what I’ve done for all those people.
 \doctor: My choice was made when I fell in love with you…[br]You were right. They made their choice.
 \doctor: The Empire is evil and the only way to change it is to fight it.
@@ -47,7 +47,7 @@ I think I'll pass out...
 [background arg="res://arts/splash art/backgrounds/estacionamento.png" fade="0.0"]
 I find myself in a different room. Is this an escape shuttle bay?
 Dr. Daphnis is hovering over me.
-join doctor center
+join doctor (preocupada) center
 \doctor: Here, you’re awake. We don’t have much time.
 \doctor: I've typed in coordinates for a place far away from here.
 \doctor: They won’t recognize the ship’s insignia there.
@@ -62,13 +62,13 @@ alien: Won’t they punish you for failing your mission?
 \doctor: Yes, and they will probably jail me for gross negligence.
 \doctor: But I will come out some day, and when I do, I’ll come and find you.
 alien: You’re doing too much for me![br]I can’t accept this!
-\doctor: I made my choice.
+\doctor (adeus): I made my choice.
 \doctor: Just promise you’ll be there for me to find you, okay?
 alien: You're gonna need my name, for that.
-"Pallene ": Look for Pallene, when you come out.
+Pallene: Look for Pallene, when you come out.
 \doctor: I will, Pallene.
 Lilith: And my name is Lilith, not Doctor!
-"Pallene ": 'll be waiting for you, Lilith...
+Pallene: 'll be waiting for you, Lilith...
 leave --All--
 [wait time="0.5"]
 [background arg="res://arts/splash art/ending/be_gay_do_crimes.png" fade="0.0"]
